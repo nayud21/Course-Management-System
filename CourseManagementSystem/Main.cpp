@@ -1,6 +1,10 @@
 #include"Header.h"
 int main() {
-	int c;
+	Menu_Staff();
+	cout << endl;
+	Menu_Student();
+
+	/*int c;
 	cout << "\t\t\t\--------------------------------------------------------------\n\n\n";
 	cout << "\t\t\t                       WELLCOME TO SYSTEM                 \n\n\n";
 	cout << "\t\t\t-------------------------     MENU    ------------------------\n\n\n";
@@ -38,7 +42,7 @@ int main() {
 	ReadSinhvien(filein, sv);
 
 	Output(sv);
-	filein.close();
+	filein.close();*/
 	system("pause");
 	return 0;
 }

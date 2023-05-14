@@ -75,3 +75,44 @@ void Registration() {
 void ForgotPassword() {
 
 }
+void Menu_Student() {
+	cout << "\t\t\t\t     ||==================MENU OF STUDENT=============||\n";
+	cout << "\t\t\t\t     ||==============================================||\n";
+	cout << "\t\t\t\t     || 1. Change the password.                      ||\n";
+	cout << "\t\t\t\t     || 2. Update your profile info.                 ||\n";
+	cout << "\t\t\t\t     || 3. View your profile infor.                  ||\n";
+	cout << "\t\t\t\t     || 4. Register for the course.                  ||\n";
+	cout << "\t\t\t\t     || 5. View your schedule.                       ||\n";
+	cout << "\t\t\t\t     || 6. View your scoreboard.                     ||\n";
+	cout << "\t\t\t\t     || 7. View your scoreboard.                     ||\n";
+	cout << "\t\t\t\t     || 8. View your scoreboard.                     ||\n";
+	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
+	cout << "\t\t\t\t     || 0. Log out.                                  ||\n";
+	cout << "\t\t\t\t     || 1. Exit.                                     ||\n";
+	cout << "\t\t\t\t     ||==============================================||\n";
+	cout << "\t\t\t\t                   Enter your choice: ";
+}
+void Menu_Staff() {
+	cout << "\t\t\t\t     ||=======================MENU OF STAFF======================||\n";
+	cout << "\t\t\t\t     ||==========================================================||\n";
+	cout << "\t\t\t\t     || 1. Change the password.                                  ||\n";
+	cout << "\t\t\t\t     || 2. Update your profile info.                             ||\n";
+	cout << "\t\t\t\t     || 3. View your profile infor.                              ||\n";
+	cout << "\t\t\t\t     || 4. Creat a school year.                                  ||\n";
+	cout << "\t\t\t\t     || 5. Add new 1st year students to 1st-year classes.        ||\n";
+	cout << "\t\t\t\t     || 6. Create a course registration session.                 ||\n";
+	cout << "\t\t\t\t     || 7. Export list of students in a course.                  ||\n";
+	cout << "\t\t\t\t     || 8. Enter and view the scoreboard of a course.            ||\n";
+	cout << "\t\t\t\t     || 9. View the scoreboard of a course.                      ||\n";
+	cout << "\t\t\t\t     || 10. Import the scoreboard of a course.                   ||\n";
+	cout << "\t\t\t\t     || 11. Update a student result.                             ||\n";
+	cout << "\t\t\t\t     || 12. View the scoreboard of a class.                      ||\n";
+	cout << "\t\t\t\t     || 13. View the scoreboard of a course.                     ||\n";
+	cout << "\t\t\t\t     || 0. Log out.                                              ||\n";
+	cout << "\t\t\t\t     || 1. Exit.                                                 ||\n";
+	cout << "\t\t\t\t     ||==========================================================||\n";
+	cout << "\t\t\t\t                      Enter your choice: ";
+}
+void Menu_Login() {
+
+}

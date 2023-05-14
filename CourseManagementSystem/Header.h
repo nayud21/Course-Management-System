@@ -36,3 +36,6 @@ void ForgotPassword();
 void ReadDate(ifstream& filein, Date& date);
 void ReadSinhvien(ifstream& filein, SINHVIEN& sv);
 void Output(SINHVIEN sv);
+void Menu_Student();
+void Menu_Staff();
+void Menu_Login();
