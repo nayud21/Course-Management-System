@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include<iomanip>
 #include <conio.h>
 #include <fstream>
 #include <windows.h>
@@ -87,6 +88,7 @@ int CountStudent();
 void ReadStudent(Student*& S, int& n);
 void Print_ListStudent(Student* S, int n);
 void Print_ElementStudent(Student* S, int i);
+void Print_One_Teacher(Teacher T);
 //
 int CountTeacher();
 void Read_Teacher(Teacher*& T, int& n);
@@ -96,10 +98,8 @@ void Print_ElementTeacher(Teacher* T, int i);
 bool CheckPass_Teacher(Teacher* T, int m, int& pos, string user, string Pass);
 bool CheckPass_Student(Student* S, int n, int& pos, string user, string Pass);
 //
-void Paint(int x, int y, string a, int color);
+
 void Input_Account(string& User, string& Pass);
-void Color(int i);
-void Gotoxy(int x, int y);
 //
 
 

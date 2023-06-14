@@ -55,7 +55,7 @@ void Menu_Student() {
 	cout << "\t\t\t\t     || 8. View your scoreboard.                     ||\n";
 	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                  ||\n";
-	cout << "\t\t\t\t     || 1. Exit.                                     ||\n";
+	cout << "\t\t\t\t     || -1. Exit.                                     ||\n";
 	cout << "\t\t\t\t     ||==============================================||\n";
 	cout << "\t\t\t\t                   Enter your choice: ";
 }
@@ -76,14 +76,14 @@ void Menu_Staff() {
 	cout << "\t\t\t\t     || 12. View the scoreboard of a class.                      ||\n";
 	cout << "\t\t\t\t     || 13. View the scoreboard of a course.                     ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                              ||\n";
-	cout << "\t\t\t\t     || 1. Exit.                                                 ||\n";
+	cout << "\t\t\t\t     || -1. Exit.                                                 ||\n";
 	cout << "\t\t\t\t     ||==========================================================||\n";
 	cout << "\t\t\t\t                      Enter your choice: ";
 }
 void Menu_Login() {
 
 }
-//
+
 int CountStudent() {
 	int count = 0;
 	ifstream infile;
@@ -160,7 +160,6 @@ void ReadStudent(Student*& S, int& n) {
 }
 void Print_ListStudent(Student* S, int n) {
 	for (int i = 0; i < n; i++) {
-		cout << "Student." << endl;
 		cout << "No: " << S[i].No << endl;
 		cout << "Student ID: " << S[i].StudentID << ". F & L Name: " << S[i].FirstName << " " << S[i].LastName << endl;
 		cout << "Gender: " << S[i].Gender << ". Date of Birth: " << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << endl;
@@ -220,15 +219,25 @@ void Read_Teacher(Teacher*& T, int& n) {
 	file.close();
 }
 void Print_ListTeacher(Teacher* T, int m) {
+	cout << setw(4) << left << "No: " 
+		<< setw(15) << left << "Teacher ID: "
+		<< setw(30) << left << " F & L Name: " 
+		<< setw(8) << left << "Gender " 
+		<< setw(15) << left << " SocialID: " 
+		<< setw(40) << left << " Fal: " << endl;
 	for (int i = 0; i < m; i++) {
-		cout << "Teacher." << endl;
-		cout << "No: " << T[i].No << endl;
-		cout << "Teacher ID: " << T[i].TeacherID << ". F & L Name: " << T[i].FirstName << " " << T[i].LastName << endl;
-		cout << "Gender: " << T[i].Gender << ". SocialID: " << T[i].SocialID << ". Fal: " << T[i].Faculty << endl;
+		Print_One_Teacher(T[i]);
 	}
 }
+void Print_One_Teacher(Teacher T) {
+	cout << setw(4) << left << T.No
+		<< setw(15) << left << T.TeacherID
+		<< setw(20) << left << T.FirstName << " "<<setw(10)<<left << T.LastName
+		<< setw(8)  << left << T.Gender
+		<< setw(15) << left << T.SocialID
+		<< setw(40) << left << T.Faculty << endl;
+}
 void Print_ElementTeacher(Teacher* T, int i) {
-	cout << "Teacher." << endl;
 	cout << "No: " << T[i].No << endl;
 	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].FirstName << " " << T[i].LastName << endl;
 	cout << "Gender: " << T[i].Gender << ". Social ID: " << T[i].SocialID << ". Fal: " << T[i].Faculty << endl;
@@ -250,20 +259,6 @@ bool CheckPass_Teacher(Teacher* T, int m, int& Pos, string User, string Pass) {
 			return 1;
 	}
 	return 0;
-}
-void Paint(int x, int y, string a, int color) {
-	Gotoxy(x, y);
-	Color(color);
-	cout << a;
-}
-void Color(int i) {
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), i);
-}
-void Gotoxy(int x, int y) {
-	HANDLE color;
-	color = GetStdHandle;
-	COORD coor = { x,y };
-	SetConsoleCursorPosition(color, coor);
 }
 void Input_Account(string& User, string& Pass) {
 	Paint(15, 20, "ID of User: ", 10);

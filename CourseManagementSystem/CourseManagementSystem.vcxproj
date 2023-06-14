@@ -133,10 +133,6 @@
   <ItemGroup>
     <ClInclude Include="Header.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="records.txt" />
-    <Text Include="SINHVIEN.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
