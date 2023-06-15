@@ -9,7 +9,7 @@ int main() {
 	ReadStudent(S, n);
 	Read_Teacher(T, m);
 	Print_ListTeacher(T, m);
-	//Print_ListStudent(S, n);
+	Print_ListStudent(S, n);
 	system("pause");
 	return 0;
 }
