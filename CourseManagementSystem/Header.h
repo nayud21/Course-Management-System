@@ -127,7 +127,8 @@ void Check_Delete_Student_Of_Courses(Student_Courses*& SC, int& p, string ID, in
 void Print_Student_Of_Courses(Student_Courses* SC, int p);
 void Print_One_Student_Of_Courses(Student_Courses* SC, int i);
 
-
+void Menu_Staff();
+void Menu_Student();
 
 
 

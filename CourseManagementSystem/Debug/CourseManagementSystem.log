@@ -1,16 +1,2 @@
-﻿  Func.cpp
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(108,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(109,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(110,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(111,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(112,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(113,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(114,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(115,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(116,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(117,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-  Main.cpp
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Main.cpp(6,11): warning C4101: 'course': unreferenced local variable
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Main.cpp(7,19): warning C4101: 'SC': unreferenced local variable
-  Generating Code...
+﻿  Main.cpp
   CourseManagementSystem.vcxproj -> C:\Users\HP\Desktop\PJ\Course-Management-System\Debug\CourseManagementSystem.exe

@@ -47,13 +47,13 @@ void Menu_Student() {
 	cout << "\t\t\t\t     ||==============================================||\n";
 	cout << "\t\t\t\t     || 1. Change the password.                      ||\n";
 	cout << "\t\t\t\t     || 2. Update your profile info.                 ||\n";
-	cout << "\t\t\t\t     || 3. View your profile infor.                  ||\n";
-	cout << "\t\t\t\t     || 4. Register for the course.                  ||\n";
-	cout << "\t\t\t\t     || 5. View your schedule.                       ||\n";
-	cout << "\t\t\t\t     || 6. View your scoreboard.                     ||\n";
-	cout << "\t\t\t\t     || 7. View your scoreboard.                     ||\n";
-	cout << "\t\t\t\t     || 8. View your scoreboard.                     ||\n";
-	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
+	cout << "\t\t\t\t     || 3. Register for the course.                  ||\n";
+	cout << "\t\t\t\t     || 4. View your schedule.                       ||\n";
+	cout << "\t\t\t\t     || 5. View your scoreboard.                     ||\n";
+	cout << "\t\t\t\t     || 6. View list of students in a course.        ||\n";
+	cout << "\t\t\t\t     || 7. View of classes.                          ||\n";
+	cout << "\t\t\t\t     || 8. View list of students in a class.         ||\n";
+//	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                  ||\n";
 	cout << "\t\t\t\t     || -1. Exit.                                     ||\n";
 	cout << "\t\t\t\t     ||==============================================||\n";
@@ -80,10 +80,6 @@ void Menu_Staff() {
 	cout << "\t\t\t\t     ||==========================================================||\n";
 	cout << "\t\t\t\t                      Enter your choice: ";
 }
-void Menu_Login() {
-
-}
-
 int CountStudent() {
 	int count = 0;
 	ifstream infile;
@@ -186,7 +182,6 @@ void Print_ElementStudent(Student* S, int i) {
 	cout << "Gender: " << S[i].Gender << ". Date of Birth: " << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << endl;
 	cout << "Social ID: " << S[i].SocialID << ". Class: " << S[i].Class << endl;
 }
-
 int CountTeacher() {
 	int count = 0;
 	ifstream infile;
@@ -256,8 +251,6 @@ void Print_ElementTeacher(Teacher* T, int i) {
 	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].FirstName << " " << T[i].LastName << endl;
 	cout << "Gender: " << T[i].Gender << ". Social ID: " << T[i].SocialID << ". Fal: " << T[i].Faculty << endl;
 }
-
-
 bool CheckPass_Student(Student* S, int n, int& Pos, string User, string Pass) {
 	for (int i = 0; i < n; i++) {
 		Pos = i;
@@ -362,7 +355,6 @@ void Change_Pass_Of_Teacher(Teacher*& T, int m, string ID)
 			}
 		}
 }
-
 void Change_Pass_Of_Student(Student*& S, int n, string ID)
 {
 	Student Temp;
@@ -408,7 +400,6 @@ void Write_File_After_Update_Student(Student* S, int n) {
 	}
 	out.close();
 }
-
 int Count_Courses() {
 	int cnt = 0;
 	ifstream in;
@@ -425,7 +416,6 @@ int Count_Courses() {
 	in.close();
 	return cnt;
 }
-
 void Read_File_Courses(Courses*& C, int& t) {
 	t = Count_Courses();
 	C = new Courses[t];
@@ -468,7 +458,6 @@ void Read_File_Courses(Courses*& C, int& t) {
 	t -= 1;
 	in.close();
 }
-
 void Print_Courses(Courses* C, int t) {
 	for (int i = 0; i < t; i++) {
 		cout << "Course ID: " << C[i].ID << ", Course Name: " << C[i].Class_Name << ", Course Teacher: " << C[i].Teacher_Name
@@ -476,7 +465,6 @@ void Print_Courses(Courses* C, int t) {
 
 	}
 }
-
 bool Check_Time_Input(int day, int month) {
 	switch (month) {
 	case 1:
@@ -504,7 +492,6 @@ bool Check_Time_Input(int day, int month) {
 	}
 	return true;
 }
-
 bool Check_Date(Courses* C, int i, int day, int month) {
 	if (month > C[i].MonthBegin && month < C[i].MonthEnd) {
 		return true;
@@ -525,7 +512,6 @@ bool Check_Date(Courses* C, int i, int day, int month) {
 	}
 	return false;
 }
-
 bool Check_Date_Student_Courses(Student_Courses* SC, int i, int day, int month) {
 	if (month > SC[i].MonthBegin && month < SC[i].MonthEnd) {
 		return true;
@@ -546,7 +532,6 @@ bool Check_Date_Student_Courses(Student_Courses* SC, int i, int day, int month) 
 	}
 	return false;
 }
-
 void Create_School_Year(int& schoolyear) {
 	cout << "Input the school year: ";
 	cin >> schoolyear;
@@ -560,7 +545,6 @@ void Create_School_Year(int& schoolyear) {
 	out << schoolyear << "-" << schoolyear + 1 << endl;
 	out.close();
 }
-
 void Add_1st_Student_To_Class(int schoolYear, Student* S, int n) {
 	string New_class;
 	cout << "\t List of 1st Student.\n";
@@ -587,7 +571,6 @@ void Add_1st_Student_To_Class(int schoolYear, Student* S, int n) {
 	}
 	outfile.close();
 }
-
 void Create_Course(Courses*& C, int& t) {
 	Courses temp;
 	cout << "Please, Enter new course's information:" << endl;
@@ -639,7 +622,6 @@ void Create_Course(Courses*& C, int& t) {
 	delete[]C;
 	C = Cnew;
 }
-
 void Write_Course_To_File(Courses* C, int t) {
 	ofstream outfile;
 	outfile.open("course.csv");
@@ -811,7 +793,6 @@ void Register_Courses(Courses*& C, int& t)
 		}
 	}
 }
-
 void Write_Register_Student_Default(Courses* C, int t, Student* S, int n, Student_Courses*& SC, int& p) {
 	p = n;
 	SC = new Student_Courses[p];
@@ -845,8 +826,6 @@ void Write_Register_Student_Default(Courses* C, int t, Student* S, int n, Studen
 
 	}
 }
-
-
 void Write_To_File_After_Update_Student_Courses(Student_Courses* SC, int p) {
 	ofstream outfile;
 	outfile.open("Stucourses.csv");
@@ -860,8 +839,6 @@ void Write_To_File_After_Update_Student_Courses(Student_Courses* SC, int p) {
 	}
 	outfile.close();
 }
-
-
 void Register_Student_Courses(Student_Courses*& SC, int& p, Courses* C, int t, Student* S, int n, string ID)
 {
 	int day = 0, month = 0, option = 0;
@@ -1054,7 +1031,6 @@ bool Un_Duplicated(Student_Courses* SC, int p, Courses* C, int t, string ID, int
 	}
 	return true;
 }
-
 int Exist_Course(Courses* C, int t, string ID)
 {
 	for (int i = 0; i < t; i++)
@@ -1062,8 +1038,6 @@ int Exist_Course(Courses* C, int t, string ID)
 			return i;
 	return -1;
 }
-
-
 void Delele_Student_Courses(Student_Courses*& SC, int& p, int i)
 {
 	for (int j = i; i < (p - 2); i++)
@@ -1076,7 +1050,6 @@ void Delele_Student_Courses(Student_Courses*& SC, int& p, int i)
 	SC = SCnew;
 	p--;
 }
-
 void Check_Delete_Student_Of_Courses(Student_Courses*& SC, int& p, string ID, int day, int month)
 {
 	string temp;
@@ -1103,24 +1076,20 @@ void Check_Delete_Student_Of_Courses(Student_Courses*& SC, int& p, string ID, in
 	}
 	cout << "The course ID you enter is wrong\n";
 }
-
 void View_Score(Student_Courses* SC, int p, int i)
 {
 	cout << "Course ID : " << SC[i].CourseID << " | Course : " << SC[i].Classname << " | Total Mark: " << SC[i].TotalMark << " | Final Mark: " << SC[i].FinalMark <<
 		" | Midterm Mark: " << SC[i].MidtermMark << " | Other Mark: " << SC[i].OtherMark << endl;
 }
-
 void Print_Student_Of_Courses(Student_Courses* SC, int p) {
 	for (int i = 0; i < p; i++) {
 		cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].FirstName << " " << SC[i].LastName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin<< "/" << SC[i].MonthBegin<< " - " << SC[i].DayEnd<< "/" << SC[i].MonthEnd << endl;
 	}
 }
-
 // in hoc sinh trong khoa hoc
 void Print_One_Student_Of_Courses(Student_Courses* SC, int i) {
 	cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].FirstName << " " << SC[i].LastName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin << "/" << SC[i].MonthBegin << " - " << SC[i].DayEnd << "/" << SC[i].MonthEnd << endl;
 }
-
 bool Check_Export(Student_Courses* SC, int p, string temp)
 {
 	for (int i = 0; i < p; i++)
@@ -1129,7 +1098,6 @@ bool Check_Export(Student_Courses* SC, int p, string temp)
 	}
 	return false;
 }
-
 void Export_Student(Student_Courses* SC, int p) {
 	string ID;
 	do {
@@ -1147,7 +1115,6 @@ void Export_Student(Student_Courses* SC, int p) {
 	}
 	outfile.close();
 }
-
 void Enter_Scoreboard_Of_Course(Student_Courses*& SC, int p, int pos, Courses* C, Teacher* T) {
 	for (int i = 0; i < p; i++) {
 		if (C[pos].ID == SC[i].CourseID) {
@@ -1165,7 +1132,6 @@ void Enter_Scoreboard_Of_Course(Student_Courses*& SC, int p, int pos, Courses* C
 		}
 	}
 }
-
 void View_ScoreBoard(Student_Courses* SC, int p, int pos, Courses* C) {
 	for (int i = 0; i < p; i++) {
 		if (C[pos].ID == SC[i].CourseID) {
@@ -1175,7 +1141,6 @@ void View_ScoreBoard(Student_Courses* SC, int p, int pos, Courses* C) {
 		}
 	}
 }
-
 void Import_ScoreBoard(Student_Courses* SC, int p, int pos, Courses* C) {
 	ofstream outfile;
 	outfile.open("Score_" + C[pos].ID + ".csv");
@@ -1221,7 +1186,6 @@ void Score_Board_Course(Student_Courses* SC, int p) {
 		}
 	}
 }
-
 void Score_Board_Class(Student_Courses* SC, int p) {
 	string ID;
 	cin.ignore();
@@ -1236,7 +1200,6 @@ void Score_Board_Class(Student_Courses* SC, int p) {
 		}
 	}
 }
-
 void View_Classes(Classes*& Clas, int& k, Student* S, int n)
 {
 	int count = 0;
