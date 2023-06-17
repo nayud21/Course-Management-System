@@ -84,14 +84,14 @@ struct Classes {
 
 //
 int StringToInteger(string s);
-int CountStudent();
+int Count_Student();
 void ReadStudent(Student*& S, int& n);
 void Print_ListStudent(Student* S, int n);
 void Print_ElementStudent(Student* S, int i);
 void Print_One_Teacher(Teacher T);
 void Print_One_Student(Student S);
 //
-int CountTeacher();
+int Count_Teacher();
 void Read_Teacher(Teacher*& T, int& n);
 void Print_ListTeacher(Teacher* T, int m);
 void Print_ElementTeacher(Teacher* T, int i);
@@ -110,7 +110,7 @@ void Update_Infor_Of_Teacher(Teacher*& T, int m, string ID);
 //Courses
 void Read_File_Courses(Courses*& C, int& t);
 void Create_Course(Courses*& C, int& t);
-void UpdateCourse(Courses*& C, int t);
+void Update_Course(Courses*& C, int t);
 void Print_Courses(Courses* C, int t);
 void Delete_Array_Of_Courses(Courses*& C, int& t, int i);
 void Delete_Course(Courses*& C, int& t);
@@ -166,14 +166,3 @@ void Score_Board_Class(Student_Courses* SC, int p);
 void View_Classes(Classes*& Clas, int& k, Student* S, int n);
 
 
-
-
-//void Login();
-//void Registration();
-//void ForgotPassword();
-//void ReadDate(ifstream& filein, Date& date);
-//void ReadSinhvien(ifstream& filein, Student& sv);
-//void Output(Student sv);
-//void Menu_Student();
-//void Menu_Staff();
-//void Menu_Login();

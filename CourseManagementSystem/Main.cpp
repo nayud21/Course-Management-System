@@ -18,7 +18,7 @@ int main() {
 	bool check = true;
 	int count = 0;
     do {
-        cout<<"LOGIN"<<endl;
+        cout<<"\t\t\tLOGIN"<<endl;
         Input_Account(user, password);
         int pos = -1;
         if (CheckPass_Teacher(T, m, pos, user, password) == true) {
@@ -28,7 +28,8 @@ int main() {
             do {
                 system("cls");
                 Menu_Staff();
-                Print_ElementTeacher(T, pos);
+                Print_One_Teacher(T[pos]);
+                //Print_ElementTeacher(T, pos);
                 cout << "\n\t Choose the option you wanna do: ";
                 cin >> select;
                 while ((select < -1) || (select > 12))
@@ -46,9 +47,10 @@ int main() {
                 }break;
                 case 2: {
                     system("cls");
-                    cout<<"Update personal information"<<endl;
+                  //  cout<<"Update personal information"<<endl;
+
                     Update_Infor_Of_Teacher(T, m, user);
-                    Write_File_After_Update_of_Teacher(T, m);
+                   Write_File_After_Update_of_Teacher(T, m);
                     system("pause");
                 } break;
                 case 3: {
@@ -162,9 +164,9 @@ int main() {
                 int select = 0;
                 do {
                     system("cls");
-                    cout<<"STUDENT";
                     Menu_Student();
-                    Print_ElementStudent(S, pos);
+                    Print_One_Student(S[pos]);
+                   // Print_ElementStudent(S, pos);
                     cout << "\n\t Choose the option you wanna do: ";
                     cin >> select;
                     while ((select < -1) || (select > 8))
@@ -182,7 +184,7 @@ int main() {
                     }break;
                     case 2: {
                         system("cls");
-                        cout<<"Update personal information";
+                       // cout<<"Update personal information";
                         Update_Infor_Of_Student(S, n, user);
                         Write_File_After_Update_Student(S, n);
                         system("pause");
@@ -313,8 +315,8 @@ int main() {
     delete[] course;
     delete[] Class;
     delete[] SC;
-	Print_ListTeacher(T, m);
-	Print_ListStudent(S, n);
+	/*Print_ListTeacher(T, m);
+	Print_ListStudent(S, n);*/
 	system("pause");
 	return 0;
 }

@@ -1,22 +1,4 @@
 #include"Header.h"
-void Login() {
-	int count;
-	string userId, password, id, pass;
-	system("cls");
-	cout << "LOGIN\n";
-	cout << "Username: ";
-	cin >> userId;
-	cout << "Password: ";
-	cin >> password;
-	fstream input;
-	input.open("records.txt");
-	while (input >> id >> pass) {
-		if (id == userId && pass == password) {
-			count = 1;
-			system("cls");
-		}
-	}
-	 }
 void ReadDate(ifstream &filein,Date &date) {
 	filein >> date.Day;
 	filein.seekg(1, 1);//dich sang phai 1 byte
@@ -36,12 +18,6 @@ void ReadDate(ifstream &filein,Date &date) {
 //	cout << "\nMSSV: " << sv.StudentID;
 //	cout << "\nNgay sinh: " << sv.ngaysinh.Day << "/" << sv.ngaysinh.Month << "/" << sv.ngaysinh.Year<<endl;
 //}
-void Registration() {
-
-}
-void ForgotPassword() {
-
-}
 void Menu_Student() {
 	cout << "\t\t\t\t     ||==================MENU OF STUDENT=============||\n";
 	cout << "\t\t\t\t     ||==============================================||\n";
@@ -55,9 +31,10 @@ void Menu_Student() {
 	cout << "\t\t\t\t     || 8. View list of students in a class.         ||\n";
 //	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                  ||\n";
-	cout << "\t\t\t\t     || -1. Exit.                                     ||\n";
+	cout << "\t\t\t\t     || -1. Exit.                                    ||\n";
 	cout << "\t\t\t\t     ||==============================================||\n";
-	cout << "\t\t\t\t                   Enter your choice: ";
+//	cout << "\t\t\t\t                   Enter your choice: ";
+	cout << endl;
 }
 void Menu_Staff() {
 	cout << "\t\t\t\t     ||=======================MENU OF STAFF======================||\n";
@@ -76,11 +53,12 @@ void Menu_Staff() {
 	cout << "\t\t\t\t     || 12. View the scoreboard of a class.                      ||\n";
 	cout << "\t\t\t\t     || 13. View the scoreboard of a course.                     ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                              ||\n";
-	cout << "\t\t\t\t     || -1. Exit.                                                 ||\n";
+	cout << "\t\t\t\t     || -1. Exit.                                                ||\n";
 	cout << "\t\t\t\t     ||==========================================================||\n";
-	cout << "\t\t\t\t                      Enter your choice: ";
+//	cout << "\t\t\t\t                      Enter your choice: ";
+	cout << endl;
 }
-int CountStudent() {
+int Count_Student() {
 	int count = 0;
 	ifstream infile;
 	infile.open("Students.csv");
@@ -116,10 +94,10 @@ int StringToInteger(string s) {
 	return res;
 }
 void ReadStudent(Student*& S, int& n) {
-	S = new Student[CountStudent()];
+	S = new Student[Count_Student()];
 	ifstream file("Students.csv");
 	if (!file.is_open()) {
-		cout << "Cannot open file." << endl;
+		cout << "Cannot open file!" << endl;
 		return;
 	}
 	string line;
@@ -167,6 +145,13 @@ void Print_ListStudent(Student* S, int n) {
 	}
 }
 void Print_One_Student(Student S) {
+	cout << setw(4) << left << "No "
+		<< setw(15) << left << "Student ID "
+		<< setw(31) << left << "F & L Name "
+		<< setw(8) << left << "Gender"
+		<< setw(15) << left << "Date of Birth "
+		<< setw(15) << left << "Social ID "
+		<< setw(6) << left << "Class" << endl;
 	cout << setw(4) << left << S.No
 		<< setw(15) << left << S.StudentID
 		<< setw(20) << left << S.FirstName << " " << setw(10) << left << S.LastName
@@ -182,7 +167,7 @@ void Print_ElementStudent(Student* S, int i) {
 	cout << "Gender: " << S[i].Gender << ". Date of Birth: " << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << endl;
 	cout << "Social ID: " << S[i].SocialID << ". Class: " << S[i].Class << endl;
 }
-int CountTeacher() {
+int Count_Teacher() {
 	int count = 0;
 	ifstream infile;
 	infile.open("Teachers.csv");
@@ -199,7 +184,7 @@ int CountTeacher() {
 	return count;
 }
 void Read_Teacher(Teacher*& T, int& n) {
-	T = new Teacher[CountTeacher()];
+	T = new Teacher[Count_Teacher()];
 	ifstream file("Teachers.csv");
 	if (!file.is_open()) {
 		cout << "Cannot open file." << endl;
@@ -303,7 +288,7 @@ void Update_Infor_Of_Teacher(Teacher*& T, int m, string ID) {
 }
 void Update_Infor_Of_Student(Student*& S, int n, string ID) {
 	Student Temp;
-	cout<<"Update personal information";
+	cout<<"Update personal information"<<endl;
 	cin.ignore();
 	cout << "Input your new personal information." << endl;
 	cout << "ID: ";
@@ -375,17 +360,17 @@ void Change_Pass_Of_Student(Student*& S, int n, string ID)
 		}
 }
 void Write_File_After_Update_of_Teacher(Teacher* T, int m) {
-	ofstream out;
-	out.open("Teachers.csv");
-	if (!out.is_open()) {
-		cout << "Can not open file!" << endl;
+	ofstream fileout;
+	fileout.open("Teachers.csv");
+	if (!fileout.is_open()) {
+		cout << "can not open file!" << endl;
 		return;
 	}
-	out << "No" << "," << "Teacher ID" << "," << "First Name" << "," << "Last Name" << "," << "Gender" << "," << "Social ID" << "," << "Faculty" << "," << "Password" << endl;
+	fileout << "No" << "," << "Teacher ID" << "," << "First Name" << "," << "Last Name" << "," << "Gender" << "," << "Social ID" << "," << "Faculty" << "," << "Password" << endl;
 	for (int i = 0; i < m; i++) {
-		out << T[i].No << "," << T[i].TeacherID << "," << T[i].FirstName << "," << T[i].LastName << "," << T[i].Gender << "," << T[i].SocialID << "," << T[i].Faculty << "," << T[i].Pass << endl;
+		fileout << T[i].No << "," << T[i].TeacherID << "," << T[i].FirstName << "," << T[i].LastName << "," << T[i].Gender << "," << T[i].SocialID << "," << T[i].Faculty << "," << T[i].Pass << endl;
 	}
-	out.close();
+	fileout.close();
 }
 void Write_File_After_Update_Student(Student* S, int n) {
 	ofstream out;
@@ -636,8 +621,7 @@ void Write_Course_To_File(Courses* C, int t) {
 	}
 	outfile.close();
 }
-// Update courses
-void UpdateCourse(Courses*& C, int t) {
+void Update_Course(Courses*& C, int t) {
 	string Courses_ID;
 	cin.ignore();
 	cout << "Input the Course ID that need to update.";
@@ -695,7 +679,6 @@ void UpdateCourse(Courses*& C, int t) {
 	if (count == 0)
 		cout << "Course do not exist!" << endl;
 }
-// delete course
 void Delete_Array_Of_Courses(Courses*& C, int& t, int i) {
 	for (i; i < t - 1; i++) {
 		C[i] = C[i + 1];
@@ -774,7 +757,7 @@ void Register_Courses(Courses*& C, int& t)
 		{
 			system("cls");
 			cout<<"Update courses"<<endl;
-			UpdateCourse(C, t);
+			Update_Course(C, t);
 			Write_Course_To_File(C, t);
 			system("pause");
 		}break;
