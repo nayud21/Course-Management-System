@@ -1,15 +1,2 @@
-﻿  Func.cpp
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(82,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(83,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(84,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(85,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(86,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(87,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(88,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(89,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(90,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(91,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(805,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(806,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\HP\Desktop\PJ\Course-Management-System\CourseManagementSystem\Func.cpp(807,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+﻿  Main.cpp
   CourseManagementSystem.vcxproj -> C:\Users\HP\Desktop\PJ\Course-Management-System\Debug\CourseManagementSystem.exe

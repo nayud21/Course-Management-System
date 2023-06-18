@@ -18,7 +18,7 @@ int main() {
 	bool check = true;
 	int count = 0;
     do {
-        cout<<"\t\t\tLOGIN"<<endl;
+      //  cout<<"\t\t\tLOGIN"<<endl;
         Input_Account(user, password);
         int pos = -1;
         if (CheckPass_Teacher(T, m, pos, user, password) == true) {
@@ -29,8 +29,7 @@ int main() {
                 system("cls");
                 Menu_Staff();
                 Print_One_Teacher(T[pos]);
-                //Print_ElementTeacher(T, pos);
-                cout << "\n\t Choose the option you wanna do: ";
+                cout << "\n\t\t\t\t\t\tChoose the option you wanna do: ";
                 cin >> select;
                 while ((select < -1) || (select > 12))
                 {
@@ -47,8 +46,6 @@ int main() {
                 }break;
                 case 2: {
                     system("cls");
-                  //  cout<<"Update personal information"<<endl;
-
                     Update_Infor_Of_Teacher(T, m, user);
                    Write_File_After_Update_of_Teacher(T, m);
                     system("pause");
@@ -152,9 +149,6 @@ int main() {
                 } break;
                 }
             } while (check_temp);
-
-
-
         }
         else
         {
@@ -166,8 +160,7 @@ int main() {
                     system("cls");
                     Menu_Student();
                     Print_One_Student(S[pos]);
-                   // Print_ElementStudent(S, pos);
-                    cout << "\n\t Choose the option you wanna do: ";
+                    cout << "\n\t\t\t\t\tChoose the option you wanna do: ";
                     cin >> select;
                     while ((select < -1) || (select > 8))
                     {
@@ -177,22 +170,21 @@ int main() {
                     case 1:
                     {
                         system("cls");
-                        cout<<" Change password";
+                        cout<<"Change password";
                        Change_Pass_Of_Student(S, n, user);
                        Write_File_After_Update_Student(S, n);
                         system("pause");
                     }break;
                     case 2: {
                         system("cls");
-                       // cout<<"Update personal information";
                         Update_Infor_Of_Student(S, n, user);
                         Write_File_After_Update_Student(S, n);
                         system("pause");
                     } break;
                     case 3: {
                         system("cls");
-                        cout<<"Register course";
-                        cout << "Courses existed: " << endl;
+                        cout<<"Register course"<<endl;
+                        cout <<"Courses existed: " << endl;
                         Print_Courses(course, t);
                         Register_Student_Courses(SC, p, course, t, S, n, user);
                         system("pause");
@@ -201,7 +193,7 @@ int main() {
                         system("cls");
                         cout<<"Schedule";
                         int count = 0, day = 0, month = 0;
-                        cout << "\n\n\tEnter Current time to view your Courses" << endl;
+                        cout << "\n\n\tEnter Current time to view your Courses:" << endl;
                         do {
                             cout << "Day: "; cin >> day;
                             cout << "Month: "; cin >> month;
@@ -221,7 +213,7 @@ int main() {
                     case 5:
                     {
                         system("cls");
-                        cout<<"Scoreboard";
+                        cout<<"Scoreboard"<<endl;
                         int count = 0, day = 0, month = 0;
                         cout << "\n\n\tEnter Current time to view your Courses" << endl;
                         do {
@@ -315,8 +307,6 @@ int main() {
     delete[] course;
     delete[] Class;
     delete[] SC;
-	/*Print_ListTeacher(T, m);
-	Print_ListStudent(S, n);*/
 	system("pause");
 	return 0;
 }

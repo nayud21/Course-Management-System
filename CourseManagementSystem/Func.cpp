@@ -253,10 +253,13 @@ bool CheckPass_Teacher(Teacher* T, int m, int& Pos, string User, string Pass) {
 	return 0;
 }
 void Input_Account(string& User, string& Pass) {
-	cout << "ID of User: ";
+	cout << "\t\t\t\t\t***********_LOGIN_************\n";
+//	cout << "\tLOGIN" << endl;
+	cout << "\t\t\t\t\t    ID User : ";
 	getline(cin, User);
-	cout << "Password: ";
+	cout << "\t\t\t\t\t    Password: ";
 	getline(cin, Pass);
+//	cout << "***********************\n";
 }
 void Update_Infor_Of_Teacher(Teacher*& T, int m, string ID) {
 	Teacher Temp;
