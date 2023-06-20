@@ -328,7 +328,7 @@ void Change_Pass_Of_Teacher(Teacher*& T, int m, string ID)
 {
 	Teacher Temp;
 	cin.ignore();
-	cout<<"Enter your old password: ";
+	cout<<"\nEnter your old password: ";
 	getline(cin, Temp.Pass);
 	for (int i = 0; i < m; i++)
 		if (T[i].TeacherID == ID)
@@ -347,7 +347,7 @@ void Change_Pass_Of_Student(Student*& S, int n, string ID)
 {
 	Student Temp;
 	cin.ignore();
-	cout<<"Enter your old password: ";
+	cout<<"\nEnter your old password: ";
 	getline(cin, Temp.Pass);
 	for (int i = 0; i < n; i++)
 		if (S[i].StudentID == ID)

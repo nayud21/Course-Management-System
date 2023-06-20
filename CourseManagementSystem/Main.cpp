@@ -171,8 +171,8 @@ int main() {
                     {
                         system("cls");
                         cout<<"Change password";
-                       Change_Pass_Of_Student(S, n, user);
-                       Write_File_After_Update_Student(S, n);
+                        Change_Pass_Of_Student(S, n, user);
+                        Write_File_After_Update_Student(S, n);
                         system("pause");
                     }break;
                     case 2: {
