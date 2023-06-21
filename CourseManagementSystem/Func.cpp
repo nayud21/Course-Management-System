@@ -231,6 +231,17 @@ void Print_One_Teacher(Teacher T) {
 		<< setw(15) << left << T.SocialID
 		<< setw(40) << left << T.Faculty << endl;
 }
+void Personal_Infor_Teacher(Teacher T) {
+	cout << "\t\t*********************\n";
+	cout << "\t\t  YOUR INFORMATION\n";
+	cout <<"\t\t" << setw(12) << left << "No: " << T.No << endl;
+	cout <<"\t\t" << setw(12) << left << "Teacher ID: " << T.TeacherID << endl
+		 <<"\t\t" << setw(12) << left << "F & L Name: " << T.FirstName << " " << T.LastName << endl;
+	cout <<"\t\t" << setw(12) << left << "Gender: " << T.Gender << endl
+		 <<"\t\t" << setw(12) << left << "Social ID: " << T.SocialID << endl
+		 <<"\t\t" << setw(12) << left << "Fal: " << T.Faculty << endl;
+	cout << "\t\t*********************\n";
+}
 void Print_ElementTeacher(Teacher* T, int i) {
 	cout << "No: " << T[i].No << endl;
 	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].FirstName << " " << T[i].LastName << endl;

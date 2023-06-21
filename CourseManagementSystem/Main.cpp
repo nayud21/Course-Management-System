@@ -28,7 +28,7 @@ int main() {
             do {
                 system("cls");
                 Menu_Staff();
-                Print_One_Teacher(T[pos]);
+                Personal_Infor_Teacher(T[pos]);
                 cout << "\n\t\t\t\t\t\tChoose the option you wanna do: ";
                 cin >> select;
                 while ((select < -1) || (select > 12))
