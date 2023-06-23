@@ -24,18 +24,18 @@ int main() {
         if (CheckPass_Teacher(T, m, pos, user, password) == true) {
             system("cls");
             int check_temp = true;
-            int select = 0;
+            int menu = 0;
             do {
                 system("cls");
                 Menu_Staff();
                 Personal_Infor_Teacher(T[pos]);
                 cout << "\n\t\t\t\t\t\tChoose the option you wanna do: ";
-                cin >> select;
-                while ((select < -1) || (select > 12))
+                cin >> menu;
+                while ((menu < -1) || (menu > 12))
                 {
-                    cout << "The option you enter isn't suitable\nPlease choose it again: "; cin >> select;
+                    cout << "The option you enter isn't suitable\nPlease choose it again: "; cin >> menu;
                 }
-                switch (select) {
+                switch (menu) {
                 case 1:
                 {
                     system("cls");
@@ -155,18 +155,18 @@ int main() {
             if (CheckPass_Student(S, n, pos, user, password) == true) {
                 system("cls");
                 int check_temp = true;
-                int select = 0;
+                int menu = 0;
                 do {
                     system("cls");
                     Menu_Student();
                     Print_One_Student(S[pos]);
                     cout << "\n\t\t\t\t\tChoose the option you wanna do: ";
-                    cin >> select;
-                    while ((select < -1) || (select > 8))
+                    cin >> menu;
+                    while ((menu < -1) || (menu > 8))
                     {
-                        cout << "The option you enter isn't suitable\nPlease choose it again: "; cin >> select;
+                        cout << "The option you enter isn't suitable\nPlease choose it again: "; cin >> menu;
                     }
-                    switch (select) {
+                    switch (menu) {
                     case 1:
                     {
                         system("cls");
