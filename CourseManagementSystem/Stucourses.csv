@@ -1,81 +1,81 @@
 No,Student ID,First Name,Last Name,Gender,Class,Course ID,Course Name,Credits,Teacher Name,day1,session1,day2,session2,day start,month start,day end,month end,Other mark,Midterm mark,Final mark,Total mark
-1,20280001,Ho Ngoc,An ,Nam,20KDL1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,9,9,1,5
-2,20280002,Nguyen Dinh,An,Nu,20KDL1,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3/1,27/5,5,5,10,7.5
-3,20280003,Nguyen Phuoc Hong,An,Nam,20KDL1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,0,7,7,5.25
-4,20280004,Tran Hoang,Anh,Nam,20KDL1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,6,7,7
-5,20280005,Nguyen Que,Anh,Nu,20KDL1,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,7,9,2,5
-6,20280006,Nguyen Quoc,Bao,Nam,20KDL1,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,3/1,27/5,7,8,10,8.75
-7,20280007,Vo Thai,Binh,Nam,20KDL2,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,7,8,5,6.25
-8,20280008,Nguyen Huu,Can,Nam,20KDL2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,7,2,1,2.75
-9,20280009,Tran Huu Chi,Cong,Nam,20KDL2,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,10,10,2,6
-10,20280010,Pham Bao,Cuong,Nam,20KDL2,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,9,7,5,6.5
-11,20280011,Hoang Hai,Dang,Nam,20KDL2,VLH004,Vat Ly Dai Cuong 2,4,Huyen,THU,S4,MON,S2,17/1,27/5,7,5,6,6
-12,20280012,Huynh Tan,Dat,Nam,20KDL2,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,0,5,0,1.25
-13,20280013,Ngo Truong Minh,Dat,Nam,20KDL2,HH004,Hoa Dai Cuong 2,4,Duong,WED,S1,MON,S2,13/6,24/8,4,5,1,2.75
-14,20280014,Nguyen Minh Hoang,Dat,Nam,20KDL2,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,10,6,0,4
-15,20280015,Phu Chi,Dat,Nam,20KDL2,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3/1,27/5,6,7,8,7.25
-16,20280016,Tran Tien,Dat,Nam,20KDL2,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,10,3,5,5.75
-17,20280017,Nguyen Nhat,Do,Nam,20KDL3,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,9,10,9.75
-18,20280018,Duong Vi,Doanh,Nam,20KDL3,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,10,1,1,3.25
-19,20280019,Nguyen Trung,Duc,Nam,20KDL3,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,8,5,5,5.75
-20,20280020,Huynh Viet,Dung,Nam,20KDL3,TTH002,Xac Suat Thong Ke,3,Huy,FRI,S4,FRI,S1,30/5,24/8,4,6,6,5.5
-21,20280021,Nguyen Quoc,Duong,Nam,20KDL1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,6,5,0,2.75
-22,20280022,Quach Phong,Duong,Nam,20KDL2,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,4,5,6,5.25
-23,20280023,Nguyen Le Ngoc,Duy,Nam,20KDL3,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,7,4,0,2.75
-24,20280024,Tran Nguyen Nhat,Duy,Nam,20KDL1,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,4,4,0,2
-25,20280025,Dao Thi Bich,Giang,Nu,20KDL1,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,3,5,8,6
-26,20280026,Nguyen Xuan,Hai,Nam,20KDL1,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,7,8,2,4.75
-27,20280027,Le Viet,Han,Nam,20KDL1,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,8,7,7,7.25
-28,20280028,Le Thi My,Hang,Nu,20KDL1,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,1,5,2,2.5
-29,20280029,Nguyen Nhat,Hao,Nam,20KDL1,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,17/1,27/5,9,0,10,7.25
-30,20280030,Cao Minh,Hieu,Nam,20KDL2,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,4,1,3.5
-31,20280031,Huynh Doan,Ho,Nam,20KDL2,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,2,9,2,3.75
-32,20280032,Nguyen Thi,Hoa,Nu,20KDL3,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,6,5,9,7.25
-33,20280033,Ha Thu,Hoang,Nam,20KDL3,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,3/1,27/5,7,4,6,5.75
-34,20280034,Nguyen Huy,Hoang,Nam,20KDL3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,10,7,9,8.75
-35,20280035,Nguyen Minh,Hoang,Nam,20KDL3,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,7,0,7,5.25
-36,20280036,Nguyen Van,Huan,Nam,20KDL3,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,0,0,10,5
-37,20280037,Nguyen Thanh,Hung,Nam,20KDL3,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,10,1,1,3.25
-38,20280038,Dang Ngoc,Hung,Nam,20KDL2,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,9,9,9,9
-39,20280039,Nguyen Dinh,Hung,Nam,20KDL1,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,6,1,7,5.25
-40,20280040,Le Hoang,Huy,Nam,20KDL3,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,9,7,5,6.5
-41,20120001,Nguyen Khai,Huy,Nam,20TTH1,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,1,3,0,1
-42,20120002,Nguyen Nhat,Huy,Nam,20TTH1,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,4,7,4,4.75
-43,20120003,Vu Quang,Huy,Nam,20TTH1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,7,6,3,4.75
-44,20120004,Nguyen Le Dieu,Huyen,Nu,20TTH1,HH005,Hoa Dai Cuong 2,4,Hieu,TUE,S4,WED,S4,17/1,27/5,9,9,8,8.5
-45,20120005,Tran Nguyen Trong,Khai,Nam,20TTH1,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,0,0,9,4.5
-46,20120006,Huynh Bao,Khang,Nam,20TTH1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,4,9,8,7.25
-47,20120007,Truong Quoc,Khang,Nam,20TTH1,SH004,Sinh Dai Cuong 2,4,Tri,MON,S4,TUE,S4,1/9,22/12,9,3,4,5
-48,20120008,Tran Dang Quoc,Khanh,Nam,20TTH1,TTH003,Toan Cao Cap,3,Khai,THU,S3,MON,S1,13/6,24/8,5,10,10,8.75
-49,20120009,Vo Tuan,Kiet,Nam,20TTH1,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,9,1,5.25
-50,20120010,Phan Tien,Ky,Nam,20TTH1,DC001,Ky Nang Lam Viec Nhom,2,Tho,MON,S3,WED,S2,13/6,24/8,6,10,10,9
-51,20120011,Dang Yen,Linh,Nu,20TTH1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,4,4,5,4.5
-52,20120012,Tran Hoang Gia,Linh,Nam,20TTH2,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,8,8,6.5
-53,20120013,Tran Nguyen Tien,Loc,Nam,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,9,8,8.5
-54,20120014,Ha Thanh,Long,Nam,20TTH2,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,17/1,27/5,5,7,10,8
-55,20120015,Mai Thi Thao,Ly,Nu,20TTH2,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,3,2,10,6.25
-56,20120016,Nguyen Duc,Manh,Nam,20TTH2,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3/1,27/5,3,10,10,8.25
-57,20120017,Tran Le,Minh,Nam,20TTH2,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,5,7,7.25
-58,20120018,Dang Thanh,My,Nu,20TTH2,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,7,3,2,3.5
-59,20120019,Dao Thanh,Nguyen,Nam,20TTH2,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,8,3,9,7.25
-60,20120020,Vo Van Hoang,Nhat,Nam,20TTH2,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,5,3,5,4.5
-61,20120021,Bui Thi Cam,Nhung,Nu,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,1,7,1,2.5
-62,20120022,Tran Huy,Phuong,Nam,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,4,8,7.25
-63,20120023,Vo Huu Anh,Tuan,Nam,20TTH3,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,5,10,5,6.25
-64,20120024,Le Trung,Nguyen,Nam,20TTH3,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,2,0,8,4.5
-65,20120025,Nguyen Nhat,Nguyen,Nam,20TTH3,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,2,10,9,7.5
-66,20120026,Tran Nhat,Nguyen,Nam,20TTH3,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,1,7,8,6
-67,20120027,Ha Xuan,Truong,Nam,20TTH3,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,10,4,6,6.5
-68,20120028,Pham Thuy Bich,Tuyen,Nu,20TTH3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,1,4,8,5.25
-69,20120029,Huynh Minh,Tu,Nam,20TTH3,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,2,4,9,6
-70,20120030,Do Nguyen Dinh,Tuan,Nam,20TTH3,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,4,7,5
-71,20120031,Nguyen Anh,Tuan,Nam,20TTH3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,3,3,10,6.5
-72,20120032,Nguyen Chi,Cong,Nam,20TTH3,SH001,Gioi Thieu Nganh Sinh Hoc,2,Dat,FRI,S2,THU,S4,30/5,24/8,0,8,3,3.5
-73,20120033,Vo Phi,Hung,Nam,20TTH3,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,0,6,10,6.5
-74,20120034,Hoang Hai,Hung,Nam,20TTH3,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,9,0,4.25
-75,20120035,Nguyen Minh,Hung,Nam,20TTH3,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3/1,27/5,9,3,7,6.5
-76,20120036,Do Dang,Huy,Nam,20TTH3,SH002,Sinh Dai Cuong 1,3,Phat,THU,S2,SAT,S1,15/9,22/12,1,3,4,3
-77,20120037,Nguyen Xuan,Huy,Nam,20TTH3,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,6,2,5,4.5
-78,20120038,Nguyen Canh,Huy,Nam,20TTH3,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,5,9,7.75
-79,20120039,Nguyen Nhat,Nam,Nam,20TTH3,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,2,2,4,3
-80,20120040,Nguyen Phi,Huyen,Nu,20TTH3,DC0010,Tam Ly Dai Cuong,2,Tin,WED,S3,SAT,S3,17/1,27/5,3,0,0,0.75
+1,20280001,An ,Ho Ngoc,Nam,20KDL1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,9,9,1,5
+2,20280002,An,Nguyen Dinh,Nu,20KDL1,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3/1,27/5,5,5,10,7.5
+3,20280003,An,Nguyen Phuoc Hong,Nam,20KDL1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,0,7,7,5.25
+4,20280004,Anh,Tran Hoang,Nam,20KDL1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,6,7,7
+5,20280005,Anh,Nguyen Que,Nu,20KDL1,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,7,9,2,5
+6,20280006,Bao,Nguyen Quoc,Nam,20KDL1,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,3/1,27/5,7,8,10,8.75
+7,20280007,Binh,Vo Thai,Nam,20KDL2,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,7,8,5,6.25
+8,20280008,Can,Nguyen Huu,Nam,20KDL2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,7,2,1,2.75
+9,20280009,Cong,Tran Huu Chi,Nam,20KDL2,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,10,10,2,6
+10,20280010,Cuong,Pham Bao,Nam,20KDL2,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,9,7,5,6.5
+11,20280011,Dang,Hoang Hai,Nam,20KDL2,VLH004,Vat Ly Dai Cuong 2,4,Huyen,THU,S4,MON,S2,17/1,27/5,7,5,6,6
+12,20280012,Dat,Huynh Tan,Nam,20KDL2,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,0,5,0,1.25
+13,20280013,Dat,Ngo Truong Minh,Nam,20KDL2,HH004,Hoa Dai Cuong 2,4,Duong,WED,S1,MON,S2,13/6,24/8,4,5,1,2.75
+14,20280014,Dat,Nguyen Minh Hoang,Nam,20KDL2,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,10,6,0,4
+15,20280015,Dat,Phu Chi,Nam,20KDL2,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3/1,27/5,6,7,8,7.25
+16,20280016,Dat,Tran Tien,Nam,20KDL2,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,10,3,5,5.75
+17,20280017,Do,Nguyen Nhat,Nam,20KDL3,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,9,10,9.75
+18,20280018,Doanh,Duong Vi,Nam,20KDL3,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,10,1,1,3.25
+19,20280019,Duc,Nguyen Trung,Nam,20KDL3,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,8,5,5,5.75
+20,20280020,Dung,Huynh Viet,Nam,20KDL3,TTH002,Xac Suat Thong Ke,3,Huy,FRI,S4,FRI,S1,30/5,24/8,4,6,6,5.5
+21,20280021,Duong,Nguyen Quoc,Nam,20KDL1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,6,5,0,2.75
+22,20280022,Duong,Quach Phong,Nam,20KDL2,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,4,5,6,5.25
+23,20280023,Duy,Nguyen Le Ngoc,Nam,20KDL3,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,7,4,0,2.75
+24,20280024,Duy,Tran Nguyen Nhat,Nam,20KDL1,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,4,4,0,2
+25,20280025,Giang,Dao Thi Bich,Nu,20KDL1,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,3,5,8,6
+26,20280026,Hai,Nguyen Xuan,Nam,20KDL1,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,7,8,2,4.75
+27,20280027,Han,Le Viet,Nam,20KDL1,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,8,7,7,7.25
+28,20280028,Hang,Le Thi My,Nu,20KDL1,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,1,5,2,2.5
+29,20280029,Hao,Nguyen Nhat,Nam,20KDL1,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,17/1,27/5,9,0,10,7.25
+30,20280030,Hieu,Cao Minh,Nam,20KDL2,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,4,1,3.5
+31,20280031,Ho,Huynh Doan,Nam,20KDL2,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,2,9,2,3.75
+32,20280032,Hoa,Nguyen Thi,Nu,20KDL3,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,6,5,9,7.25
+33,20280033,Hoang,Ha Thu,Nam,20KDL3,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,3/1,27/5,7,4,6,5.75
+34,20280034,Hoang,Nguyen Huy,Nam,20KDL3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,10,7,9,8.75
+35,20280035,Hoang,Nguyen Minh,Nam,20KDL3,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,7,0,7,5.25
+36,20280036,Huan,Nguyen Van,Nam,20KDL3,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,0,0,10,5
+37,20280037,Hung,Nguyen Thanh,Nam,20KDL3,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,10,1,1,3.25
+38,20280038,Hung,Dang Ngoc,Nam,20KDL2,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,9,9,9,9
+39,20280039,Hung,Nguyen Dinh,Nam,20KDL1,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,6,1,7,5.25
+40,20280040,Huy,Le Hoang,Nam,20KDL3,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,9,7,5,6.5
+41,20120001,Huy,Nguyen Khai,Nam,20TTH1,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,1,3,0,1
+42,20120002,Huy,Nguyen Nhat,Nam,20TTH1,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,4,7,4,4.75
+43,20120003,Huy,Vu Quang,Nam,20TTH1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,7,6,3,4.75
+44,20120004,Huyen,Nguyen Le Dieu,Nu,20TTH1,HH005,Hoa Dai Cuong 2,4,Hieu,TUE,S4,WED,S4,17/1,27/5,9,9,8,8.5
+45,20120005,Khai,Tran Nguyen Trong,Nam,20TTH1,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,0,0,9,4.5
+46,20120006,Khang,Huynh Bao,Nam,20TTH1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,4,9,8,7.25
+47,20120007,Khang,Truong Quoc,Nam,20TTH1,SH004,Sinh Dai Cuong 2,4,Tri,MON,S4,TUE,S4,1/9,22/12,9,3,4,5
+48,20120008,Khanh,Tran Dang Quoc,Nam,20TTH1,TTH003,Toan Cao Cap,3,Khai,THU,S3,MON,S1,13/6,24/8,5,10,10,8.75
+49,20120009,Kiet,Vo Tuan,Nam,20TTH1,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,9,1,5.25
+50,20120010,Ky,Phan Tien,Nam,20TTH1,DC001,Ky Nang Lam Viec Nhom,2,Tho,MON,S3,WED,S2,13/6,24/8,6,10,10,9
+51,20120011,Linh,Dang Yen,Nu,20TTH1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,4,4,5,4.5
+52,20120012,Linh,Tran Hoang Gia,Nam,20TTH2,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,8,8,6.5
+53,20120013,Loc,Tran Nguyen Tien,Nam,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,9,8,8.5
+54,20120014,Long,Ha Thanh,Nam,20TTH2,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,17/1,27/5,5,7,10,8
+55,20120015,Ly,Mai Thi Thao,Nu,20TTH2,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,3,2,10,6.25
+56,20120016,Manh,Nguyen Duc,Nam,20TTH2,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3/1,27/5,3,10,10,8.25
+57,20120017,Minh,Tran Le,Nam,20TTH2,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3/1,27/5,10,5,7,7.25
+58,20120018,My,Dang Thanh,Nu,20TTH2,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,7,3,2,3.5
+59,20120019,Nguyen,Dao Thanh,Nam,20TTH2,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,8,3,9,7.25
+60,20120020,Nhat,Vo Van Hoang,Nam,20TTH2,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,5,3,5,4.5
+61,20120021,Nhung,Bui Thi Cam,Nu,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,1,7,1,2.5
+62,20120022,Phuong,Tran Huy,Nam,20TTH2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,4,8,7.25
+63,20120023,Tuan,Vo Huu Anh,Nam,20TTH3,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,5,10,5,6.25
+64,20120024,Nguyen,Le Trung,Nam,20TTH3,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,2,0,8,4.5
+65,20120025,Nguyen,Nguyen Nhat,Nam,20TTH3,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,2,10,9,7.5
+66,20120026,Nguyen,Tran Nhat,Nam,20TTH3,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,1,7,8,6
+67,20120027,Truong,Ha Xuan,Nam,20TTH3,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,10,4,6,6.5
+68,20120028,Tuyen,Pham Thuy Bich,Nu,20TTH3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,1,4,8,5.25
+69,20120029,Tu,Huynh Minh,Nam,20TTH3,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,2,4,9,6
+70,20120030,Tuan,Do Nguyen Dinh,Nam,20TTH3,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,4,7,5
+71,20120031,Tuan,Nguyen Anh,Nam,20TTH3,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3/1,27/5,3,3,10,6.5
+72,20120032,Cong,Nguyen Chi,Nam,20TTH3,SH001,Gioi Thieu Nganh Sinh Hoc,2,Dat,FRI,S2,THU,S4,30/5,24/8,0,8,3,3.5
+73,20120033,Hung,Vo Phi,Nam,20TTH3,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,0,6,10,6.5
+74,20120034,Hung,Hoang Hai,Nam,20TTH3,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,9,0,4.25
+75,20120035,Hung,Nguyen Minh,Nam,20TTH3,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3/1,27/5,9,3,7,6.5
+76,20120036,Huy,Do Dang,Nam,20TTH3,SH002,Sinh Dai Cuong 1,3,Phat,THU,S2,SAT,S1,15/9,22/12,1,3,4,3
+77,20120037,Huy,Nguyen Xuan,Nam,20TTH3,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,6,2,5,4.5
+78,20120038,Huy,Nguyen Canh,Nam,20TTH3,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,5,9,7.75
+79,20120039,Nam,Nguyen Nhat,Nam,20TTH3,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,2,2,4,3
+80,20120040,Huyen,Nguyen Phi,Nu,20TTH3,DC0010,Tam Ly Dai Cuong,2,Tin,WED,S3,SAT,S3,17/1,27/5,3,0,0,0.75

@@ -112,8 +112,8 @@ void ReadStudent(Student*& S, int& n) {
 	while (file) {
 		getline(file, SNo, ',');
 		getline(file, S[i].StudentID, ',');
-		getline(file, S[i].FirstName, ',');
 		getline(file, S[i].LastName, ',');
+		getline(file, S[i].FirstName, ',');
 		getline(file, S[i].Gender, ',');
 		getline(file, day, '/');
 		getline(file, month, '/');
@@ -154,7 +154,7 @@ void Print_One_Student(Student S) {
 		<< setw(6) << left << "Class" << endl;
 	cout << setw(4) << left << S.No
 		<< setw(15) << left << S.StudentID
-		<< setw(20) << left << S.FirstName << " " << setw(10) << left << S.LastName
+		<< setw(20) << left << S.LastName << " " << setw(10) << left << S.FirstName
 		<< setw(8) << left << S.Gender
 		<< setw(2) << left << S.DateOfBirth.Day <<  "/"<<setw(2) << left << S.DateOfBirth.Month << "/" << setw(9) << left << S.DateOfBirth.Year
 		<< setw(15) << left << S.SocialID
@@ -163,7 +163,7 @@ void Print_One_Student(Student S) {
 }
 void Print_ElementStudent(Student* S, int i) {
 	cout << "No: " << S[i].No << endl;
-	cout << "StudentID: " << S[i].StudentID << ". F & L Name: " << S[i].FirstName << " " << S[i].LastName << endl;
+	cout << "StudentID: " << S[i].StudentID << ". F & L Name: " << S[i].LastName << " " << S[i].FirstName << endl;
 	cout << "Gender: " << S[i].Gender << ". Date of Birth: " << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << endl;
 	cout << "Social ID: " << S[i].SocialID << ". Class: " << S[i].Class << endl;
 }
@@ -198,8 +198,8 @@ void Read_Teacher(Teacher*& T, int& n) {
 	while (file) {
 		getline(file, SNo, ',');
 		getline(file, T[i].TeacherID, ',');
-		getline(file, T[i].FirstName, ',');
 		getline(file, T[i].LastName, ',');
+		getline(file, T[i].FirstName, ',');
 		getline(file, T[i].Gender, ',');
 		getline(file, SSocialID, ',');
 		getline(file, T[i].Faculty, ',');
@@ -226,7 +226,7 @@ void Print_ListTeacher(Teacher* T, int m) {
 void Print_One_Teacher(Teacher T) {
 	cout << setw(4) << left << T.No
 		<< setw(15) << left << T.TeacherID
-		<< setw(20) << left << T.FirstName << " "<<setw(10)<<left << T.LastName
+		<< setw(20) << left << T.LastName << " "<<setw(10)<<left << T.FirstName
 		<< setw(8)  << left << T.Gender
 		<< setw(15) << left << T.SocialID
 		<< setw(40) << left << T.Faculty << endl;
@@ -236,7 +236,7 @@ void Personal_Infor_Teacher(Teacher T) {
 	cout << "\t\t  YOUR INFORMATION\n";
 	cout <<"\t\t" << setw(12) << left << "No: " << T.No << endl;
 	cout <<"\t\t" << setw(12) << left << "Teacher ID: " << T.TeacherID << endl
-		 <<"\t\t" << setw(12) << left << "F & L Name: " << T.FirstName << " " << T.LastName << endl;
+		 <<"\t\t" << setw(12) << left << "F & L Name: " << T.LastName << " " << T.FirstName << endl;
 	cout <<"\t\t" << setw(12) << left << "Gender: " << T.Gender << endl
 		 <<"\t\t" << setw(12) << left << "Social ID: " << T.SocialID << endl
 		 <<"\t\t" << setw(12) << left << "Fal: " << T.Faculty << endl;
@@ -244,7 +244,7 @@ void Personal_Infor_Teacher(Teacher T) {
 }
 void Print_ElementTeacher(Teacher* T, int i) {
 	cout << "No: " << T[i].No << endl;
-	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].FirstName << " " << T[i].LastName << endl;
+	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].LastName << " " << T[i].FirstName << endl;
 	cout << "Gender: " << T[i].Gender << ". Social ID: " << T[i].SocialID << ". Fal: " << T[i].Faculty << endl;
 }
 bool CheckPass_Student(Student* S, int n, int& Pos, string User, string Pass) {
