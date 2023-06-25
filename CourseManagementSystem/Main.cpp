@@ -140,6 +140,7 @@ int main() {
                     system("pause");
                 } break;
                 case 0: {
+                    system("cls");
                     cin.ignore();
                     check_temp = false;
                 } break;
@@ -283,6 +284,7 @@ int main() {
                         system("pause");
                     }break;
                     case 0: {
+                        system("cls");
                         cin.ignore();
                         check_temp = false;
                     } break;

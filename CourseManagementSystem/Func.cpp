@@ -115,8 +115,8 @@ void ReadStudent(Student*& S, int& n) {
 		getline(file, S[i].LastName, ',');
 		getline(file, S[i].FirstName, ',');
 		getline(file, S[i].Gender, ',');
-		getline(file, day, '/');
 		getline(file, month, '/');
+		getline(file, day, '/');
 		getline(file, year, ',');
 		getline(file, SSocialID, ',');
 		getline(file, S[i].Class, ',');
