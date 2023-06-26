@@ -19,20 +19,20 @@ void ReadDate(ifstream &filein,Date &date) {
 //	cout << "\nNgay sinh: " << sv.ngaysinh.Day << "/" << sv.ngaysinh.Month << "/" << sv.ngaysinh.Year<<endl;
 //}
 void Menu_Student() {
-	cout << "\t\t\t\t     ||==================MENU OF STUDENT=============||\n";
-	cout << "\t\t\t\t     ||==============================================||\n";
-	cout << "\t\t\t\t     || 1. Change the password.                      ||\n";
-	cout << "\t\t\t\t     || 2. Update your profile info.                 ||\n";
-	cout << "\t\t\t\t     || 3. Register for the course.                  ||\n";
-	cout << "\t\t\t\t     || 4. View your schedule.                       ||\n";
-	cout << "\t\t\t\t     || 5. View your scoreboard.                     ||\n";
-	cout << "\t\t\t\t     || 6. View list of students in a course.        ||\n";
-	cout << "\t\t\t\t     || 7. View of classes.                          ||\n";
-	cout << "\t\t\t\t     || 8. View list of students in a class.         ||\n";
+	cout << "\t\t\t\t     ||==================MENU OF STUDENT==================||\n";
+	cout << "\t\t\t\t     ||===================================================||\n";
+	cout << "\t\t\t\t     || 1. Change the password.                           ||\n";
+	cout << "\t\t\t\t     || 2. Update your profile info.                      ||\n";
+	cout << "\t\t\t\t     || 3. Register for the course.                       ||\n";
+	cout << "\t\t\t\t     || 4. View your schedule.                            ||\n";
+	cout << "\t\t\t\t     || 5. View your scoreboard.                          ||\n";
+	cout << "\t\t\t\t     || 6. View list of students in a course.             ||\n";
+	cout << "\t\t\t\t     || 7. View of classes.                               ||\n";
+	cout << "\t\t\t\t     || 8. View list of students in a class.              ||\n";
 //	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
-	cout << "\t\t\t\t     || 0. Log out.                                  ||\n";
-	cout << "\t\t\t\t     || -1. Exit.                                    ||\n";
-	cout << "\t\t\t\t     ||==============================================||\n";
+	cout << "\t\t\t\t     || 0. Log out.                                       ||\n";
+	cout << "\t\t\t\t     || -1. Exit.                                         ||\n";
+	cout << "\t\t\t\t     ||===================================================||\n";
 //	cout << "\t\t\t\t                   Enter your choice: ";
 	cout << endl;
 }
@@ -161,6 +161,19 @@ void Print_One_Student(Student S) {
 		<<setw(6)<<left <<S.Class
 		<< endl;
 }
+void Personal_Infor_Student(Student S) {
+	cout << "************************************************\n";
+	cout << "*               YOUR INFORMATION               *\n";
+	cout << "" << setw(2) << left << "* No" <<setw(12)<<right<<":" <<" " << setw(30)<<left<<S.No <<"*" << endl;
+	cout << "" << setw(10) << left << "* Student ID" << setw(4) << right << ":" << " " << setw(30) << left << S.StudentID << "*" << endl
+		<< "" << setw(9) << left << "* Last Name" << setw(5) << right << ":" << " " << setw(30) << left << S.LastName/* <<" " << setw(14) << left << S.FirstName << "*"*/<<"*" << endl
+		<< "" << setw(10) << left << "* First Name" << setw(4) << right << ":" << " " << setw(30) <<left<< S.FirstName << "*" << endl;
+	cout << "" << setw(6) << left << "* Gender"<<setw(8)<<right<<":" << " "<<setw(30)<<left<<S.Gender<<"*" << endl
+		<< "" << setw(14) << left << "* Date of Birth:" << setw(3) << right << S.DateOfBirth.Day << "/" << setw(2) << left << S.DateOfBirth.Month << "/" << setw(24) << left << S.DateOfBirth.Year <<"*" << endl
+		<< "" << setw(9) << left << "* Social ID"<<setw(5)<<right<<":" <<" " <<setw(30)<<left<< S.SocialID<<"*" << endl
+		<< "" << setw(5) << left << "* Class"<<setw(9)<<right<<":" <<" " <<setw(30)<<left<< S.Class<<"*" << endl;
+	cout << "************************************************\n";
+}
 void Print_ElementStudent(Student* S, int i) {
 	cout << "No: " << S[i].No << endl;
 	cout << "StudentID: " << S[i].StudentID << ". F & L Name: " << S[i].LastName << " " << S[i].FirstName << endl;
@@ -242,6 +255,7 @@ void Personal_Infor_Teacher(Teacher T) {
 		 <<"\t\t" << setw(12) << left << "Fal: " << T.Faculty << endl;
 	cout << "\t\t*********************\n";
 }
+
 void Print_ElementTeacher(Teacher* T, int i) {
 	cout << "No: " << T[i].No << endl;
 	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].LastName << " " << T[i].FirstName << endl;

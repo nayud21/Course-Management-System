@@ -167,3 +167,4 @@ void View_Classes(Classes*& Clas, int& k, Student* S, int n);
 
 
 void Personal_Infor_Teacher(Teacher T);
+void Personal_Infor_Student(Student S);

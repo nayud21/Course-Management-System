@@ -160,7 +160,8 @@ int main() {
                 do {
                     system("cls");
                     Menu_Student();
-                    Print_One_Student(S[pos]);
+                   // Print_One_Student(S[pos]);
+                    Personal_Infor_Student(S[pos]);
                     cout << "\n\t\t\t\t\tChoose the option you wanna do: ";
                     cin >> menu;
                     while ((menu < -1) || (menu > 8))
