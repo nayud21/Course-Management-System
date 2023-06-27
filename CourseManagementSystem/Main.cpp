@@ -2,9 +2,13 @@
 int main() {
 	string User, Pass;
 	Student* S;
+    S = nullptr;
 	Teacher* T;
+    T = nullptr;
 	Courses* course;
+    course = nullptr;
 	Student_Courses* SC;
+    SC = nullptr;
 	int m =0, n =0, p = 0,t = 0, k = 1;
 	ReadStudent(S, n);
 	Read_Teacher(T, m);
@@ -12,6 +16,7 @@ int main() {
 	Write_Register_Student_Default(course, t, S, n, SC, p);
 	Write_To_File_After_Update_Student_Courses(SC, p);
 	Classes* Class;
+    Class = nullptr;
 	Class = new Classes[n - 1];
 	string user, password;
 	int schoolYear = 0;
@@ -270,15 +275,18 @@ int main() {
                     case 8:
                     {
                         system("cls");
-                        cout<<"list student in a class";
+                        cout<<"List student in a class";
                         string ID;
                         cout << "\tEnter ID of class to view list students: ";
                         cin.ignore();
                         getline(cin, ID);
+                        cout << ID << endl;
                         for (int i = 0; i < p; i++)
                         {
                             if (SC[i].Class == ID) {
-                                Print_Student_Of_Courses(SC, i);
+                                Print_One_Student_Of_Courses(SC, i);
+                               // Print_Student_Of_Courses(SC, i);
+                              //  Print_ElementStudent(S, i);
                             }
                         }
 

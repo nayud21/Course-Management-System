@@ -77,7 +77,7 @@ struct Student_Courses {
 };
 struct Classes {
 	string NameClass;
-	int Num;
+	int Num=0;
 };
 
 
