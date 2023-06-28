@@ -1099,8 +1099,14 @@ void Print_Student_Of_Courses(Student_Courses* SC, int p) {
 }
 // in hoc sinh trong khoa hoc
 void Print_One_Student_Of_Courses(Student_Courses* SC, int i) {
-	cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].FirstName << " " << SC[i].LastName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin << "/" << SC[i].MonthBegin << " - " << SC[i].DayEnd << "/" << SC[i].MonthEnd << endl;
+	cout << setw(12)<<left << SC[i].StudentID <<setw(20)<<left << SC[i].LastName << setw(15)<<left << SC[i].FirstName << setw(10)<<left<< SC[i].Class << setw(15)<<left << SC[i].CourseID <<setw(30)<<left << SC[i].Classname << setw(2)<<left << SC[i].DayBegin << "/"<<setw(12)<<left << SC[i].MonthBegin << setw(2)<<left<< SC[i].DayEnd << "/"<<setw(13)<<left << SC[i].MonthEnd << endl;
 }
+void print_title_student_of_course() {
+	cout << setw(12) << left << "Student ID" << setw(20) << left << "Last Name" << setw(15) << left << "First Name" << setw(10) << left << "Class" << setw(15) << left << "Course ID" << setw(30) << left << "Course" << setw(15) << left << "Day Begin" << setw(15) << left << "Day End" << endl;
+}
+//void Print_One_Student_Of_Courses(Student_Courses* SC, int i) {
+//	cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].LastName << " " << SC[i].FirstName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin << "/" << SC[i].MonthBegin << " - " << SC[i].DayEnd << "/" << SC[i].MonthEnd << endl;
+//}
 bool Check_Export(Student_Courses* SC, int p, string temp)
 {
 	for (int i = 0; i < p; i++)

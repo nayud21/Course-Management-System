@@ -1,81 +1,81 @@
 No,Student ID,First Name,Last Name,Gender,Class,Course ID,Course Name,Credits,Teacher Name,day1,session1,day2,session2,day start,month start,day end,month end,Other mark,Midterm mark,Final mark,Total mark
-1,22120001,An,Bui Duy,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,9,9,1,5,,
-2,22120002,An,Do Quang,Nam,22CTT2,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3-Jan,27/5,5,5,10,7.5,,
-3,22120003,An,Le Nguyen Thien,Nu,22CTT2,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,9-Jan,22/12,0,7,7,5.25,,
-4,22120004,An,Le Thinh,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,6,7,7,,
-5,22120006,An,Nguyen Phan Truong,Nam,22CTT2,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,9-Jan,22/12,7,9,2,5,,
-6,22120007,An,Nguyen Truong,Nam,22CTT2,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,9-Jan,27/5,7,8,10,8.75,,
-7,22120008,An,Pham Thien,Nu,22CTT2,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,9-Jan,22/12,7,8,5,6.25,,
-8,22120009,An,Truong Vinh,Nam,22CTT2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,7,2,1,2.75,,
-9,22120010,Anh,Hoang Tuan,Nam,22CTT2,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,10,10,2,6,,
-10,22120011,Anh,Le Tuan,Nam,22CTT3,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,9-Jan,22/12,9,7,5,6.5,,
-11,22120013,Anh,Nguyen Duc,Nam,22CTT3,VLH004,Vat Ly Dai Cuong 2,4,Huyen,THU,S4,MON,S2,17/1,27/5,7,5,6,6,,
-12,22120014,Anh,Nguyen Hoang,Nam,22CTT3,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,0,5,0,1.25,,
-13,22120015,Anh,Nguyen Tran Duy,Nam,22CTT3,HH004,Hoa Dai Cuong 2,4,Duong,WED,S1,MON,S2,13/6,24/8,4,5,1,2.75,,
-14,22120016,Anh,Tran Hung,Nam,22CTT3,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,10,6,0,4,,
-15,22120017,Anh,Truong Tien,Nam,22CTT3,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3-Jan,27/5,6,7,8,7.25,,
-16,22120018,Bac,Vu Duy,Nam,22CTT3,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,10,3,5,5.75,,
-17,22120019,Bang,Ban Huu,Nam,22CTT3,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3-Jan,27/5,10,9,10,9.75,,
-18,22120020,Bao,Cao Gia,Nam,22CTT3,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,10,1,1,3.25,,
-19,22120021,Bao,Huynh Thai,Nam,22CTT3,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,8,5,5,5.75,,
-20,22120022,Bao,Le,Nam,22CTT4,TTH002,Xac Suat Thong Ke,3,Huy,FRI,S4,FRI,S1,30/5,24/8,4,6,6,5.5,,
-21,22120023,Bao,Le Nguyen Gia,Nam,22CTT4,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,6,5,0,2.75,,
-22,22120024,Bao,Nguyen Hoang,Nam,22CTT4,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,4,5,6,5.25,,
-23,22120026,Bao,Phan Minh Gia,Nam,22CTT4,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,7,4,0,2.75,,
-24,22120027,Bao,Thai,Nam,22CTT4,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,4,4,0,2,,
-25,22120029,Bao,Nguyen Huu,Nam,22CTT4,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,3,5,8,6,,
-26,22120030,Binh,Bui Viet,Nam,22CTT4,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,7,8,2,4.75,,
-27,22120031,Binh,Nguyen Huu Binh,Nam,22CTT4,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,8,7,7,7.25,,
-28,22120032,Binh,Tran Thanh,Nam,22CTT4,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,1,5,2,2.5,,
-29,22120033,Chau,Phan Cong,Nam,22CTT4,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,3-Jan,27/5,9,0,10,7.25,,
-30,22120034,Chi,Luong Thi Kim ,Nu,22CTT4,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,4,1,3.5,,
-31,22120035,Chi,Duong Thien,Nam,22CTT4,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,2,9,2,3.75,,
-32,22120036,Chien,Dao Minh,Nam,22CTT5,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,9-Jan,22/12,6,5,9,7.25,,
-33,22120037,Chien,Nguyen Van,Nam,22CTT5,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,9-Jan,27/5,7,4,6,5.75,,
-34,22120040,Cong,Truong Viet,Nam,22CTT5,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3-Jan,27/5,10,7,9,8.75,,
-35,22120041,Cuom,Do Quoc,Nam,22CTT5,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,9-Jan,22/12,7,0,7,5.25,,
-36,22120042,Cuong,Do Ngoc,Nam,22CTT5,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,0,0,10,5,,
-37,22120043,Cuong,Doan Minh Cuong,Nam,22CTT5,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,10,1,1,3.25,,
-38,22120046,Dang,Nguyen Ngoc,Nam,22CTT5,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3-Jan,27/5,9,9,9,9,,
-39,22120047,Dang,Tran Xuan,Nam,22CTT5,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,6,1,7,5.25,,
-40,22120048,Danh,Nguyen Chi,Nam,22CTT5,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,9,7,5,6.5,,
-41,22120050,Dao,Ho Manh Dao,Nam,22CTT5,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,1,3,0,1,,
-42,22120051,Dao,Phan Long,Nam,22CTT5,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,4,7,4,4.75,,
-43,22120052,Dat,Dang Ngoc Quoc,Nam,22CTT5,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,9-Jan,22/12,7,6,3,4.75,,
-44,22120053,Dat,Le Thanh,Nam,22CTT5,HH005,Hoa Dai Cuong 2,4,Hieu,TUE,S4,WED,S4,17/1,27/5,9,9,8,8.5,,
-45,22120054,Dat,Le Van Thanh Dat,Nam,22CTT5,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,0,0,9,4.5,,
-46,22120056,Dat,Nguy Thanh,Nam,22CTT5,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,4,9,8,7.25,,
-47,22120057,Dat,Nguyen Tien,Nam,22CTT6,SH004,Sinh Dai Cuong 2,4,Tri,MON,S4,TUE,S4,9-Jan,22/12,9,3,4,5,,
-48,22120058,Dat,Nguyen Thanh,Nam,22CTT6,TTH003,Toan Cao Cap,3,Khai,THU,S3,MON,S1,13/6,24/8,5,10,10,8.75,,
-49,22120059,Dat,Tran Minh Dat,Nam,22CTT6,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3-Jan,27/5,10,9,1,5.25,,
-50,22120061,Dat,Vu Tuan Dat,Nam,22CTT6,DC001,Ky Nang Lam Viec Nhom,2,Tho,MON,S3,WED,S2,13/6,24/8,6,10,10,9,,
-51,22120062,Dien,Nguyen Dang,Nam,22CTT6,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,4,4,5,4.5,,
-52,22120063,Dong,Ngo Phuong,Nam,22CTT6,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,9-Jan,22/12,2,8,8,6.5,,
-53,22120064,Dong,Nguyen Tan,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,9,8,8.5,,
-54,22120065,Dong,Tran Dai,Nam,22CTT6,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,3-Jan,27/5,5,7,10,8,,
-55,22120066,Duc,Bui Anh,Nam,22CTT6,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,9-Jan,22/12,3,2,10,6.25,,
-56,22120067,Duc,Lam Hong Anh,Nam,22CTT6,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,3-Jan,27/5,3,10,10,8.25,,
-57,22120069,Duc,Nguyen Duy,Nam,22CTT6,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,3-Jan,27/5,10,5,7,7.25,,
-58,22120070,Duc,Nguyen Thanh,Nam,22CTT6,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,7,3,2,3.5,,
-59,22120071,Duc,Phan Ba,Nam,22CTT6,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,8,3,9,7.25,,
-60,22120072,Dung,Nguyen Anh,Nam,22CTT6,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,5,3,5,4.5,,
-61,22120073,Duong,Ly Ngoc,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,1,7,1,2.5,,
-62,22120074,Duy,Do Nhut,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,4,8,7.25,,
-63,22120075,Duy,Ho Anh,Nam,22CTT6,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,5,10,5,6.25,,
-64,22120076,Duy,Ho Khanh,Nam,22TNT1,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,2,0,8,4.5,,
-65,22120078,Duy,Nguyen Ba,Nam,22TNT1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,9-Jan,22/12,2,10,9,7.5,,
-66,22120080,Duy,Nguyen Minh,Nam,22TNT1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,1,7,8,6,,
-67,22120081,Duy,Pham Thanh,Nam,22TNT1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,10,4,6,6.5,,
-68,22120083,Gia,Nguyen Tran,Nam,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3-Jan,27/5,1,4,8,5.25,,
-69,22120084,Giang,Pham Hoang,Nam,22TNT1,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,9-Jan,22/12,2,4,9,6,,
-70,22120086,Giap,Nguyen Cong Giap,Nam,22TNT1,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,9-Jan,22/12,2,4,7,5,,
-71,22120088,Ha,Van Ho Phuong,Nu,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,3-Jan,27/5,3,3,10,6.5,,
-72,22120089,Hai,Do Xuan,Nam,22TNT1,SH001,Gioi Thieu Nganh Sinh Hoc,2,Dat,FRI,S2,THU,S4,30/5,24/8,0,8,3,3.5,,
-73,20120033,Hung,Vo Phi,Nam,22TNT1,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,0,6,10,6.5,,
-74,20120034,Hung,Hoang Hai,Nam,22TNT1,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,9,0,4.25,,
-75,20120035,Hung,Nguyen Minh,Nam,22TNT1,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,3-Jan,27/5,9,3,7,6.5,,
-76,20120036,Huy,Do Dang,Nam,22TNT1,SH002,Sinh Dai Cuong 1,3,Phat,THU,S2,SAT,S1,15/9,22/12,1,3,4,3,,
-77,20120037,Huy,Nguyen Xuan,Nam,22TNT1,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,6,2,5,4.5,,
-78,20120038,Huy,Nguyen Canh,Nam,22TNT1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,5,9,7.75,,
-79,20120039,Nam,Nguyen Nhat,Nam,22TNT1,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,2,2,4,3,,
-80,20120040,Huyen,Nguyen Phi,Nu,22TNT1,DC0010,Tam Ly Dai Cuong,2,Tin,WED,S3,SAT,S3,17/1,27/5,3,0,0,0.75,,
+1,22120001,An,Bui Duy,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,9,9,1,5
+2,22120002,An,Do Quang,Nam,22CTT2,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,1/3,27/5,5,5,10,7.5
+3,22120003,An,Le Nguyen Thien,Nu,22CTT2,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,0,7,7,5.25
+4,22120004,An,Le Thinh,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,6,7,7
+5,22120006,An,Nguyen Phan Truong,Nam,22CTT2,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,7,9,2,5
+6,22120007,An,Nguyen Truong,Nam,22CTT2,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,1/9,27/5,7,8,10,8.75
+7,22120008,An,Pham Thien,Nu,22CTT2,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,7,8,5,6.25
+8,22120009,An,Truong Vinh,Nam,22CTT2,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,7,2,1,2.75
+9,22120010,Anh,Hoang Tuan,Nam,22CTT2,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,10,10,2,6
+10,22120011,Anh,Le Tuan,Nam,22CTT3,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,9,7,5,6.5
+11,22120013,Anh,Nguyen Duc,Nam,22CTT3,VLH004,Vat Ly Dai Cuong 2,4,Huyen,THU,S4,MON,S2,17/1,27/5,7,5,6,6
+12,22120014,Anh,Nguyen Hoang,Nam,22CTT3,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,0,5,0,1.25
+13,22120015,Anh,Nguyen Tran Duy,Nam,22CTT3,HH004,Hoa Dai Cuong 2,4,Duong,WED,S1,MON,S2,13/6,24/8,4,5,1,2.75
+14,22120016,Anh,Tran Hung,Nam,22CTT3,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,10,6,0,4
+15,22120017,Anh,Truong Tien,Nam,22CTT3,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,1/3,27/5,6,7,8,7.25
+16,22120018,Bac,Vu Duy,Nam,22CTT3,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,10,3,5,5.75
+17,22120019,Bang,Ban Huu,Nam,22CTT3,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,1/3,27/5,10,9,10,9.75
+18,22120020,Bao,Cao Gia,Nam,22CTT3,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,10,1,1,3.25
+19,22120021,Bao,Huynh Thai,Nam,22CTT3,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,8,5,5,5.75
+20,22120022,Bao,Le,Nam,22CTT4,TTH002,Xac Suat Thong Ke,3,Huy,FRI,S4,FRI,S1,30/5,24/8,4,6,6,5.5
+21,22120023,Bao,Le Nguyen Gia,Nam,22CTT4,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,6,5,0,2.75
+22,22120024,Bao,Nguyen Hoang,Nam,22CTT4,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,4,5,6,5.25
+23,22120026,Bao,Phan Minh Gia,Nam,22CTT4,HH002,Hoa Dai Cuong 1,3,Linh,SAT,S1,TUE,S1,17/1,27/5,7,4,0,2.75
+24,22120027,Bao,Thai,Nam,22CTT4,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,4,4,0,2
+25,22120029,Bao,Nguyen Huu,Nam,22CTT4,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,3,5,8,6
+26,22120030,Binh,Bui Viet,Nam,22CTT4,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,7,8,2,4.75
+27,22120031,Binh,Nguyen Huu Binh,Nam,22CTT4,VLH005,Vat Ly Dai Cuong 2,4,Khuong,FRI,S4,SAT,S2,30/5,24/8,8,7,7,7.25
+28,22120032,Binh,Tran Thanh,Nam,22CTT4,DC004,Triet Hoc Mac Lenin,3,My,THU,S2,MON,S4,30/5,24/8,1,5,2,2.5
+29,22120033,Chau,Phan Cong,Nam,22CTT4,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,1/3,27/5,9,0,10,7.25
+30,22120034,Chi,Luong Thi Kim ,Nu,22CTT4,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,4,1,3.5
+31,22120035,Chi,Duong Thien,Nam,22CTT4,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,2,9,2,3.75
+32,22120036,Chien,Dao Minh,Nam,22CTT5,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,6,5,9,7.25
+33,22120037,Chien,Nguyen Van,Nam,22CTT5,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,1/9,27/5,7,4,6,5.75
+34,22120040,Cong,Truong Viet,Nam,22CTT5,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1/3,27/5,10,7,9,8.75
+35,22120041,Cuom,Do Quoc,Nam,22CTT5,MTH003,Moi Truong Dai Cuong,3,Huong,FRI,S3,TUE,S3,1/9,22/12,7,0,7,5.25
+36,22120042,Cuong,Do Ngoc,Nam,22CTT5,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,0,0,10,5
+37,22120043,Cuong,Doan Minh Cuong,Nam,22CTT5,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,10,1,1,3.25
+38,22120046,Dang,Nguyen Ngoc,Nam,22CTT5,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1/3,27/5,9,9,9,9
+39,22120047,Dang,Tran Xuan,Nam,22CTT5,MTH002,Cong Nghe Ky Thuat Moi Truong,3,Huy,TUE,S1,MON,S1,13/6,24/8,6,1,7,5.25
+40,22120048,Danh,Nguyen Chi,Nam,22CTT5,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,9,7,5,6.5
+41,22120050,Dao,Ho Manh Dao,Nam,22CTT5,HH001,Gioi Thieu Nganh Hoa Hoc,2,Ngoc,FRI,S1,SAT,S4,15/9,22/12,1,3,0,1
+42,22120051,Dao,Phan Long,Nam,22CTT5,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,4,7,4,4.75
+43,22120052,Dat,Dang Ngoc Quoc,Nam,22CTT5,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,7,6,3,4.75
+44,22120053,Dat,Le Thanh,Nam,22CTT5,HH005,Hoa Dai Cuong 2,4,Hieu,TUE,S4,WED,S4,17/1,27/5,9,9,8,8.5
+45,22120054,Dat,Le Van Thanh Dat,Nam,22CTT5,MTH004,Con Nguoi Va Moi Truong,4,Kien,WED,S1,THU,S1,17/1,27/5,0,0,9,4.5
+46,22120056,Dat,Nguy Thanh,Nam,22CTT5,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,4,9,8,7.25
+47,22120057,Dat,Nguyen Tien,Nam,22CTT6,SH004,Sinh Dai Cuong 2,4,Tri,MON,S4,TUE,S4,1/9,22/12,9,3,4,5
+48,22120058,Dat,Nguyen Thanh,Nam,22CTT6,TTH003,Toan Cao Cap,3,Khai,THU,S3,MON,S1,13/6,24/8,5,10,10,8.75
+49,22120059,Dat,Tran Minh Dat,Nam,22CTT6,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,1/3,27/5,10,9,1,5.25
+50,22120061,Dat,Vu Tuan Dat,Nam,22CTT6,DC001,Ky Nang Lam Viec Nhom,2,Tho,MON,S3,WED,S2,13/6,24/8,6,10,10,9
+51,22120062,Dien,Nguyen Dang,Nam,22CTT6,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,4,4,5,4.5
+52,22120063,Dong,Ngo Phuong,Nam,22CTT6,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,8,8,6.5
+53,22120064,Dong,Nguyen Tan,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,9,8,8.5
+54,22120065,Dong,Tran Dai,Nam,22CTT6,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,1/3,27/5,5,7,10,8
+55,22120066,Duc,Bui Anh,Nam,22CTT6,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1/9,22/12,3,2,10,6.25
+56,22120067,Duc,Lam Hong Anh,Nam,22CTT6,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,1/3,27/5,3,10,10,8.25
+57,22120069,Duc,Nguyen Duy,Nam,22CTT6,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,1/3,27/5,10,5,7,7.25
+58,22120070,Duc,Nguyen Thanh,Nam,22CTT6,VLH001,Gioi Thieu Nganh Vat Ly,2,Y,MON,S1,TUE,S4,15/9,22/12,7,3,2,3.5
+59,22120071,Duc,Phan Ba,Nam,22CTT6,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,8,3,9,7.25
+60,22120072,Dung,Nguyen Anh,Nam,22CTT6,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,5,3,5,4.5
+61,22120073,Duong,Ly Ngoc,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,1,7,1,2.5
+62,22120074,Duy,Do Nhut,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,9,4,8,7.25
+63,22120075,Duy,Ho Anh,Nam,22CTT6,DC007,Tu Tuong Ho Chi Minh,2,Hoan,WED,S1,THU,S2,30/5,24/8,5,10,5,6.25
+64,22120076,Duy,Ho Khanh,Nam,22TNT1,DC003,The Duc 2,2,Duc,MON,S2,WED,S3,13/6,24/8,2,0,8,4.5
+65,22120078,Duy,Nguyen Ba,Nam,22TNT1,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1/9,22/12,2,10,9,7.5
+66,22120080,Duy,Nguyen Minh,Nam,22TNT1,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17/1,27/5,1,7,8,6
+67,22120081,Duy,Pham Thanh,Nam,22TNT1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,10,4,6,6.5
+68,22120083,Gia,Nguyen Tran,Nam,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1/3,27/5,1,4,8,5.25
+69,22120084,Giang,Pham Hoang,Nam,22TNT1,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1/9,22/12,2,4,9,6
+70,22120086,Giap,Nguyen Cong Giap,Nam,22TNT1,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1/9,22/12,2,4,7,5
+71,22120088,Ha,Van Ho Phuong,Nu,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1/3,27/5,3,3,10,6.5
+72,22120089,Hai,Do Xuan,Nam,22TNT1,SH001,Gioi Thieu Nganh Sinh Hoc,2,Dat,FRI,S2,THU,S4,30/5,24/8,0,8,3,3.5
+73,20120033,Hung,Vo Phi,Nam,22TNT1,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17/1,27/5,0,6,10,6.5
+74,20120034,Hung,Hoang Hai,Nam,22TNT1,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17/1,27/5,8,9,0,4.25
+75,20120035,Hung,Nguyen Minh,Nam,22TNT1,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,1/3,27/5,9,3,7,6.5
+76,20120036,Huy,Do Dang,Nam,22TNT1,SH002,Sinh Dai Cuong 1,3,Phat,THU,S2,SAT,S1,15/9,22/12,1,3,4,3
+77,20120037,Huy,Nguyen Xuan,Nam,22TNT1,MTH001,Gioi Thieu Nganh Moi Truong,2,Doan,SAT,S2,WED,S1,30/5,24/8,6,2,5,4.5
+78,20120038,Huy,Nguyen Canh,Nam,22TNT1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15/9,22/12,8,5,9,7.75
+79,20120039,Nam,Nguyen Nhat,Nam,22TNT1,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17/1,27/5,2,2,4,3
+80,20120040,Huyen,Nguyen Phi,Nu,22TNT1,DC0010,Tam Ly Dai Cuong,2,Tin,WED,S3,SAT,S3,17/1,27/5,3,0,0,0.75

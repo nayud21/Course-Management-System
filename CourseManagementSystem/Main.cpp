@@ -275,12 +275,13 @@ int main() {
                     case 8:
                     {
                         system("cls");
-                        cout<<"List student in a class";
+                        cout<<"\t* List student in a class"<<endl;
                         string ID;
-                        cout << "\tEnter ID of class to view list students: ";
+                        cout << "\tID of class you want to view: ";
                         cin.ignore();
                         getline(cin, ID);
-                        cout << ID << endl;
+                        cout << "\t************************************\n";
+                        print_title_student_of_course();
                         for (int i = 0; i < p; i++)
                         {
                             if (SC[i].Class == ID) {
