@@ -44,7 +44,7 @@ int main() {
                 case 1:
                 {
                     system("cls");
-                    cout<< "Change password"<<endl;
+                    cout<< "\tCHANGE PASSWORD"<<endl;
                     Change_Pass_Of_Teacher(T, m, user);
                     Write_File_After_Update_of_Teacher(T, m);
                     system("pause");
@@ -57,15 +57,15 @@ int main() {
                 } break;
                 case 3: {
                     system("cls");
-                    cout<<"Create a school year."<<endl;
+                    cout<<"\tCREATE A SCHOOL YEAR."<<endl;
                     Create_School_Year(schoolYear);
                     system("pause");
                 } break;
                 case 4: {
                     system("cls");
-                    cout<<"Add new 1st year students to 1st year classes."<<endl;
+                    cout<<"ADD 1ST YEAR STUDENT TO 1ST YEAR CLASS ."<<endl;
                     if (schoolYear == 0) {
-                        cout << "You need to create a new school year before Add new 1st to classes." << endl;
+                        cout << "YOU MUST CREATE A NEW SCHOOL YEAR!." << endl;
                     }
                     else {
                         Add_1st_Student_To_Class(schoolYear, S, n);
@@ -74,7 +74,7 @@ int main() {
                 } break;
                 case 5: {
                     system("cls");
-                    cout<<"Register course"<<endl;
+                    cout<<"\tREGISTER COURSE"<<endl;
                     cout << "\tCourses existed: " << t << endl;
                     Print_Courses(course, t);
                     Register_Courses(course, t);
@@ -83,14 +83,14 @@ int main() {
                 case 6:
                 {
                     system("cls");
-                    cout<<"Export list of students in a course"<<endl;
+                    cout<<"\tEXPORT LIST STUDENT IN A COURSE"<<endl;
                     Export_Student(SC, p);
                     system("pause");
                 } break;
 
                 case 7: {
                     system("cls");
-                    cout<<"Enter the scoreboard of a course."<<endl;
+                    cout<<"\tENTER SOCREBOARD COURSE."<<endl;
                     Enter_Scoreboard_Of_Course(SC, p, pos, course, T);
                     Write_To_File_After_Update_Student_Courses(SC, p);
                     count = 7;
@@ -100,10 +100,10 @@ int main() {
                 case 8: {
                     system("cls");
                     if (count != 7) {
-                        cout << "You need enter the scoreboard of your course before!" << endl;
+                        cout << "YOU MUST ENTER THE SCOREBOARD OF COURSE BEFORE!" << endl;
                     }
                     else {
-                        cout<<"View the scoreboard of a course."<<endl;
+                        cout<<"SCOREBOARD OF COURSE."<<endl;
                         Print_ElementTeacher(T, pos);
                         View_ScoreBoard(SC, p, pos, course);
                     }
@@ -113,10 +113,10 @@ int main() {
                 {
                     system("cls");
                     if (count != 7) {
-                        cout << "You need enter the scoreboard of your course before!" << endl;
+                        cout << "YOU MUST ENTER THE SCOREBOARD BEFORE!" << endl;
                     }
                     else {
-                        cout<<"Import the scoreboard of a course."<<endl;
+                        cout<<"IMPORT SCOREBOARD OF COURSE."<<endl;
                         Import_ScoreBoard(SC, p, pos, course);
                     }
                     system("pause");
@@ -124,7 +124,7 @@ int main() {
 
                 case 10: {
                     system("cls");
-                    cout<<"Update a student result."<<endl;
+                    cout<<"\tUPDATE RESULT'S STUDENT."<<endl;
                     View_ScoreBoard(SC, p, pos, course);
                     Update_Student_Result(SC, p);
                     Write_To_File_After_Update_Student_Courses(SC, p);;
@@ -133,14 +133,14 @@ int main() {
 
                 case 11: {
                     system("cls");
-                    cout<<"View the scoreboard of a class.";
+                    cout<<"\tSCOREBOARD OF CLASS.";
                     Score_Board_Class(SC, p);
                     system("pause");
                 } break;
                 case 12:
                 {
                     system("cls");
-                    cout<<"View the scoreboard of a course.";
+                    cout<<"\tTHE SCOREBOARD OF COURSE.";
                     Score_Board_Course(SC, p);
                     system("pause");
                 } break;
@@ -177,7 +177,7 @@ int main() {
                     case 1:
                     {
                         system("cls");
-                        cout<<"Change password";
+                        cout<<"\tCHANGE PASWORD";
                         Change_Pass_Of_Student(S, n, user);
                         Write_File_After_Update_Student(S, n);
                         system("pause");
@@ -190,7 +190,7 @@ int main() {
                     } break;
                     case 3: {
                         system("cls");
-                        cout<<"Register course"<<endl;
+                        cout<<"\tREGISTER COURSE"<<endl;
                         cout <<"Courses existed: " << endl;
                         Print_Courses(course, t);
                         Register_Student_Courses(SC, p, course, t, S, n, user);
@@ -198,7 +198,7 @@ int main() {
                     } break;
                     case 4: {
                         system("cls");
-                        cout<<"Schedule";
+                        cout<<"\tSCHEDULE";
                         int count = 0, day = 0, month = 0;
                         cout << "\n\n\tEnter Current time to view your Courses:" << endl;
                         do {
@@ -220,7 +220,7 @@ int main() {
                     case 5:
                     {
                         system("cls");
-                        cout<<"Scoreboard"<<endl;
+                        cout<<"\tSCOREBOARD"<<endl;
                         int count = 0, day = 0, month = 0;
                         cout << "\n\n\tEnter Current time to view your Courses" << endl;
                         do {
@@ -239,7 +239,7 @@ int main() {
                     }break;
                     case 6: {
                         system("cls");
-                        cout<<"List students in a course";
+                        cout<<"\tLIST STUDENT IN A COURSE";
                         string ID;
                         int count = 0, day = 0, month = 0;
                         cout << "\tEnter Current time to view your Courses" << endl;
@@ -264,7 +264,7 @@ int main() {
                     case 7:
                     {
                         system("cls");
-                        cout<<"List of classes";
+                        cout<<"LIST CLASSES";
                         View_Classes(Class, k, S, n);
                         for (int i = 0; i < k; i++)
                         {
@@ -275,7 +275,7 @@ int main() {
                     case 8:
                     {
                         system("cls");
-                        cout<<"\t* List student in a class"<<endl;
+                        cout<<"\t* LIST STUDENT IN A CLASS"<<endl;
                         string ID;
                         cout << "\tID of class you want to view: ";
                         cin.ignore();
@@ -307,10 +307,13 @@ int main() {
             }
             else {
                 system("cls");
-                cout << "\n\tKhong co tai khoan trong he thong!";
+                system("color C");
+                cout << "\t\t\t\t\t\tWARNING";
+                cout << "\n\t\t\t\t\tID or Password is wrong!";
                 Sleep(3000);
                 cin.ignore();
                 system("cls");
+                system("color 7");
             }
         }
     } while (check);
