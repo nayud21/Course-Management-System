@@ -1,23 +1,4 @@
 #include"Header.h"
-void ReadDate(ifstream &filein,Date &date) {
-	filein >> date.Day;
-	filein.seekg(1, 1);//dich sang phai 1 byte
-	filein >> date.Month;
-	filein.seekg(1, 1);//dich sang phai 1 byte
-	filein >> date.Year;
-}
-//void ReadSinhvien(ifstream &filein, Student &sv) {
-//	getline(filein, sv.Name, ',');
-//	//filein.seekg(1, 1);
-//	getline(filein, sv.StudentID, ',');
-//	//filein.seekg(1, 1);
-//	ReadDate(filein, sv.ngaysinh);
-//}
-//void Output(Student sv) {
-//	cout << "\nHo ten: " << sv.Name;
-//	cout << "\nMSSV: " << sv.StudentID;
-//	cout << "\nNgay sinh: " << sv.ngaysinh.Day << "/" << sv.ngaysinh.Month << "/" << sv.ngaysinh.Year<<endl;
-//}
 void Menu_Student() {
 	cout << "\t\t\t\t     ||==================MENU OF STUDENT==================||\n";
 	cout << "\t\t\t\t     ||===================================================||\n";
@@ -29,11 +10,9 @@ void Menu_Student() {
 	cout << "\t\t\t\t     || 6. View list of students in a course.             ||\n";
 	cout << "\t\t\t\t     || 7. View of classes.                               ||\n";
 	cout << "\t\t\t\t     || 8. View list of students in a class.              ||\n";
-//	cout << "\t\t\t\t     || 9. View list of students in a class.         ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                       ||\n";
 	cout << "\t\t\t\t     || -1. Exit.                                         ||\n";
 	cout << "\t\t\t\t     ||===================================================||\n";
-//	cout << "\t\t\t\t                   Enter your choice: ";
 	cout << endl;
 }
 void Menu_Staff() {
@@ -41,21 +20,20 @@ void Menu_Staff() {
 	cout << "\t\t\t\t     ||==========================================================||\n";
 	cout << "\t\t\t\t     || 1. Change the password.                                  ||\n";
 	cout << "\t\t\t\t     || 2. Update your profile info.                             ||\n";
-	cout << "\t\t\t\t     || 3. View your profile infor.                              ||\n";
-	cout << "\t\t\t\t     || 4. Creat a school year.                                  ||\n";
-	cout << "\t\t\t\t     || 5. Add new 1st year students to 1st-year classes.        ||\n";
-	cout << "\t\t\t\t     || 6. Create a course registration session.                 ||\n";
-	cout << "\t\t\t\t     || 7. Export list of students in a course.                  ||\n";
-	cout << "\t\t\t\t     || 8. Enter and view the scoreboard of a course.            ||\n";
-	cout << "\t\t\t\t     || 9. View the scoreboard of a course.                      ||\n";
-	cout << "\t\t\t\t     || 10. Import the scoreboard of a course.                   ||\n";
-	cout << "\t\t\t\t     || 11. Update a student result.                             ||\n";
-	cout << "\t\t\t\t     || 12. View the scoreboard of a class.                      ||\n";
-	cout << "\t\t\t\t     || 13. View the scoreboard of a course.                     ||\n";
+	cout << "\t\t\t\t     || 3. Creat a school year.                                  ||\n";
+	cout << "\t\t\t\t     || 4. Add new 1st year students to 1st-year classes.        ||\n";
+	cout << "\t\t\t\t     || 5. Create a course registration session.                 ||\n";
+	cout << "\t\t\t\t     || 6. Export list of students in a course.                  ||\n";
+	cout << "\t\t\t\t     || 7. Enter and view the scoreboard of a course.            ||\n";
+	cout << "\t\t\t\t     || 8. View the scoreboard of a course.                      ||\n";
+	cout << "\t\t\t\t     || 9. Import the scoreboard of a course.                    ||\n";
+	cout << "\t\t\t\t     || 10. Update a student result.                             ||\n";
+	cout << "\t\t\t\t     || 11. View the scoreboard of a class.                      ||\n";
+	cout << "\t\t\t\t     || 12. View the scoreboard of a course.                     ||\n";
 	cout << "\t\t\t\t     || 0. Log out.                                              ||\n";
 	cout << "\t\t\t\t     || -1. Exit.                                                ||\n";
 	cout << "\t\t\t\t     ||==========================================================||\n";
-//	cout << "\t\t\t\t                      Enter your choice: ";
+
 	cout << endl;
 }
 int Count_Student() {
@@ -112,8 +90,8 @@ void ReadStudent(Student*& S, int& n) {
 	while (file) {
 		getline(file, SNo, ',');
 		getline(file, S[i].StudentID, ',');
-		getline(file, S[i].LastName, ',');
 		getline(file, S[i].FirstName, ',');
+		getline(file, S[i].LastName, ',');
 		getline(file, S[i].Gender, ',');
 		getline(file, month, '/');
 		getline(file, day, '/');
@@ -135,7 +113,7 @@ void ReadStudent(Student*& S, int& n) {
 void Print_ListStudent(Student* S, int n) {
 	cout << setw(4) << left << "No "
 		<< setw(15) << left << "Student ID "
-		<< setw(31) << left << "F & L Name "
+		<< setw(31) << left << "First & Last Name "
 		<< setw(8) << left << "Gender"
 		<< setw(15) << left << "Date of Birth "
 		<< setw(15) << left << "Social ID "
@@ -472,9 +450,12 @@ void Read_File_Courses(Courses*& C, int& t) {
 	in.close();
 }
 void Print_Courses(Courses* C, int t) {
+	cout << setw(13) << left << "Course ID" << setw(30) << left << "Course Name" << setw(18) << left << "Course Teacher" << setw(10) << left << "Day Begin" << setw(10) << "Day End" << endl;
 	for (int i = 0; i < t; i++) {
-		cout << "Course ID: " << C[i].ID << ", Course Name: " << C[i].Class_Name << ", Course Teacher: " << C[i].Teacher_Name
-			<< ", Start: " << C[i].DayBegin << "/" << C[i].MonthBegin << ", End: " << C[i].DayEnd << "/" << C[i].MonthEnd << endl;
+		cout<< setw(13) << left << C[i].ID << setw(30) << left << C[i].Class_Name 
+			<< setw(18) << left << C[i].Teacher_Name 
+			<< setw(2) << left << C[i].DayBegin << "/" << setw(7) << left << C[i].MonthBegin 
+			<< setw(2)<<left << C[i].DayEnd<<"/"<<setw(7)<<left<<C[i].MonthEnd << endl;
 
 	}
 }
@@ -765,10 +746,12 @@ void Register_Courses(Courses*& C, int& t)
 			cout<<"List courses";
 			cout << "\t List of courses existing: \n";
 			cout << "Current Time: " << day << "/" << month << endl;
+			cout << setw(13) << left << "Course ID" << setw(30) << left << "Course Name"  << setw(10) << left << "Day Begin" << setw(10) << "Day End" << endl;
 			for (int i = 0; i < t; i++) {
 				if (Check_Date(C, i, day, month)) {
-					cout << "Course ID: " << C[i].ID << ", Course Name: " << C[i].Class_Name << ", Time start: " << C[i].DayBegin << "/" << C[i].MonthBegin << ", Time end: " <<
-						C[i].DayEnd << "/" << C[i].MonthEnd<< endl;
+					cout << setw(13) << left << C[i].ID << setw(30) << left << C[i].Class_Name
+						 << setw(2) << left << C[i].DayBegin << "/" << setw(7) << left << C[i].MonthBegin
+						 << setw(2) << left << C[i].DayEnd << "/" << setw(7) << left << C[i].MonthEnd << endl;
 				}
 			}
 			system("pause");
