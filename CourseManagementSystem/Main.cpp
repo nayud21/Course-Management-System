@@ -36,7 +36,10 @@ int main() {
                 cin >> menu;
                 while ((menu < -1) || (menu > 12))
                 {
-                    cout << "Your option isn't suitable\nPlease choose again: ";
+                    system("color C");
+                    cout <<"\t\t\t\t\t\tYour option isn't suitable" << endl;
+                    system("color 7");
+                    cout <<"\t\t\t\t\t\tPlease choose again : ";
                     cin >> menu;
                 }
                 switch (menu) {
@@ -51,7 +54,7 @@ int main() {
                 case 2: {
                     system("cls");
                     Update_Infor_Of_Teacher(list_teacher, number_of_teacher, user);
-                   Write_File_After_Update_of_Teacher(list_teacher, number_of_teacher);
+                    Write_File_After_Update_of_Teacher(list_teacher, number_of_teacher);
                     system("pause");
                 } break;
                 case 3: {
@@ -164,13 +167,16 @@ int main() {
                 do {
                     system("cls");
                     Menu_Student();
-                   // Print_One_Student(S[pos]);
                     Personal_Infor_Student(list_student[pos]);
                     cout << "\n\t\t\t\t\tChoose the option you wanna do: ";
                     cin >> menu;
                     while ((menu < -1) || (menu > 8))
                     {
-                        cout << "The option you enter isn't suitable\nPlease choose it again: "; cin >> menu;
+                        system("color C");
+                        cout << "\t\t\t\t\t\t Your option isn't suitable" << endl;
+                        system("color 7");
+                        cout << "\t\t\t\t\t\t Please choose again : ";
+                        cin >> menu;
                     }
                     switch (menu) {
                     case 1:

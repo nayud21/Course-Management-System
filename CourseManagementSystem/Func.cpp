@@ -71,169 +71,175 @@ int StringToInteger(string s) {
 	}
 	return res;
 }
-void ReadStudent(Student*& S, int& n) {
+void ReadStudent(Student*& S, int& number_of_student) {
 	S = new Student[Count_Student()];
 	ifstream file("Students.csv");
 	if (!file.is_open()) {
-		cout << "Cannot open file!" << endl;
+		cout << "Cann't open file!" << endl;
 		return;
 	}
-	string line;
-	string SNo;
-	string SSocialID;
-	string SDate;
-	string day;
-	string month;
-	string year;
-	int i = 0;
-	getline(file, line);
+	string temp_line;
+	string temp_No;
+	string temp_SocialID;
+	string temp_day;
+	string temp_month;
+	string temp_year;
+	int temp = 0;
+	getline(file, temp_line);
 	while (file) {
-		getline(file, SNo, ',');
-		getline(file, S[i].StudentID, ',');
-		getline(file, S[i].FirstName, ',');
-		getline(file, S[i].LastName, ',');
-		getline(file, S[i].Gender, ',');
-		getline(file, month, '/');
-		getline(file, day, '/');
-		getline(file, year, ',');
-		getline(file, SSocialID, ',');
-		getline(file, S[i].Class, ',');
-		getline(file, S[i].Pass);
+		getline(file, temp_No, ',');
+		getline(file, S[temp].StudentID, ',');
+		getline(file, S[temp].FirstName, ',');
+		getline(file, S[temp].LastName, ',');
+		getline(file, S[temp].Gender, ',');
+		getline(file, temp_day, '/');
+		getline(file, temp_month, '/');
+		getline(file, temp_year, ',');
+		getline(file, temp_SocialID, ',');
+		getline(file, S[temp].Class, ',');
+		getline(file, S[temp].Pass);
 
-		S[i].No = StringToInteger(SNo);
-		S[i].DateOfBirth.Day = StringToInteger(day);
-		S[i].DateOfBirth.Month = StringToInteger(month);
-		S[i].DateOfBirth.Year = StringToInteger(year);
-		S[i].SocialID = StringToInteger(SSocialID);
-		i++;
+		S[temp].No = StringToInteger(temp_No);
+		S[temp].DateOfBirth.Day = StringToInteger(temp_day);
+		S[temp].DateOfBirth.Month = StringToInteger(temp_month);
+		S[temp].DateOfBirth.Year = StringToInteger(temp_year);
+		S[temp].SocialID = StringToInteger(temp_SocialID);
+		temp++;
 	}
-	n = i - 1;
+	number_of_student = temp - 1;
 	file.close();
 }
-void Print_ListStudent(Student* S, int n) {
-	cout << setw(4) << left << "No "
-		<< setw(15) << left << "Student ID "
-		<< setw(31) << left << "First & Last Name "
-		<< setw(8) << left << "Gender"
-		<< setw(15) << left << "Date of Birth "
-		<< setw(15) << left << "Social ID "
-		<< setw(6) << left << "Class" << endl;
-	for (int i = 0; i < n; i++) {
+void Print_ListStudent(Student* S, int number_of_student) {
+	cout << setw(4)  << left << "No "
+		 << setw(15) << left << "Student ID "
+		 << setw(31) << left << "First & Last Name "
+		 << setw(8)  << left << "Gender"
+		 << setw(15) << left << "Date of Birth "
+		 << setw(15) << left << "Social ID "
+		 << setw(6)  << left << "Class" << endl;
+	for (int i = 0; i < number_of_student; i++) {
 		Print_One_Student(S[i]);
 	}
 }
 void Print_One_Student(Student S) {
-	cout << setw(4) << left << "No "
-		<< setw(15) << left << "Student ID "
-		<< setw(31) << left << "F & L Name "
-		<< setw(8) << left << "Gender"
-		<< setw(15) << left << "Date of Birth "
-		<< setw(15) << left << "Social ID "
-		<< setw(6) << left << "Class" << endl;
-	cout << setw(4) << left << S.No
-		<< setw(15) << left << S.StudentID
-		<< setw(20) << left << S.LastName << " " << setw(10) << left << S.FirstName
-		<< setw(8) << left << S.Gender
-		<< setw(2) << left << S.DateOfBirth.Day <<  "/"<<setw(2) << left << S.DateOfBirth.Month << "/" << setw(9) << left << S.DateOfBirth.Year
-		<< setw(15) << left << S.SocialID
-		<<setw(6)<<left <<S.Class
-		<< endl;
+	cout << setw(4)  << left << "No "
+		 << setw(15) << left << "Student ID "
+		 << setw(31) << left << "F & L Name "
+		 << setw(8)  << left << "Gender"
+		 << setw(15) << left << "Date of Birth "
+		 << setw(15) << left << "Social ID "
+		 << setw(6)  << left << "Class" << endl;
+	cout << setw(4)  << left << S.No
+		 << setw(15) << left << S.StudentID
+		 << setw(20) << left << S.LastName << " " << setw(10) << left << S.FirstName
+		 << setw(8)  << left << S.Gender
+		 << setw(2)  << left << S.DateOfBirth.Day <<  "/"<<setw(2) << left << S.DateOfBirth.Month << "/" << setw(9) << left << S.DateOfBirth.Year
+		 << setw(15) << left << S.SocialID
+		 << setw(6)  << left << S.Class
+		 << endl;
 }
 void Personal_Infor_Student(Student S) {
 	cout << "************************************************\n";
 	cout << "*               YOUR INFORMATION               *\n";
-	cout << "" << setw(2) << left << "* No" <<setw(12)<<right<<":" <<" " << setw(30)<<left<<S.No <<"*" << endl;
-	cout << "" << setw(10) << left << "* Student ID" << setw(4) << right << ":" << " " << setw(30) << left << S.StudentID << "*" << endl
-		<< "" << setw(9) << left << "* Last Name" << setw(5) << right << ":" << " " << setw(30) << left << S.LastName/* <<" " << setw(14) << left << S.FirstName << "*"*/<<"*" << endl
-		<< "" << setw(10) << left << "* First Name" << setw(4) << right << ":" << " " << setw(30) <<left<< S.FirstName << "*" << endl;
-	cout << "" << setw(6) << left << "* Gender"<<setw(8)<<right<<":" << " "<<setw(30)<<left<<S.Gender<<"*" << endl
-		<< "" << setw(14) << left << "* Date of Birth:" << setw(3) << right << S.DateOfBirth.Day << "/" << setw(2) << left << S.DateOfBirth.Month << "/" << setw(24) << left << S.DateOfBirth.Year <<"*" << endl
-		<< "" << setw(9) << left << "* Social ID"<<setw(5)<<right<<":" <<" " <<setw(30)<<left<< S.SocialID<<"*" << endl
-		<< "" << setw(5) << left << "* Class"<<setw(9)<<right<<":" <<" " <<setw(30)<<left<< S.Class<<"*" << endl;
+	cout << "" << setw(2)  << left << "* No"         << setw(12) << right << ":" << " " << setw(30) << left << S.No        << "*" << endl;
+	cout << "" << setw(10) << left << "* Student ID" << setw(4)  << right << ":" << " " << setw(30) << left << S.StudentID << "*" << endl
+		 << "" << setw(9)  << left << "* Last Name"  << setw(5)  << right << ":" << " " << setw(30) << left << S.LastName  << "*" << endl
+		 << "" << setw(10) << left << "* First Name" << setw(4)  << right << ":" << " " << setw(30) << left << S.FirstName << "*" << endl;
+	cout << "" << setw(6)  << left << "* Gender"     << setw(8)  << right << ":" << " " << setw(30) << left << S.Gender    << "*" << endl
+		 << "" << setw(14) << left << "* Date of Birth:"  << setw(3)  << right << S.DateOfBirth.Day << "/" << setw(2) << left << S.DateOfBirth.Month << "/" << setw(24) << left << S.DateOfBirth.Year <<"*" << endl
+		 << "" << setw(9)  << left << "* Social ID"  << setw(5)  << right << ":" << " " << setw(30) << left << S.SocialID  <<"*" << endl
+		 << "" << setw(5)  << left << "* Class"      << setw(9)  << right << ":" << " " << setw(30) << left << S.Class     <<"*" << endl;
 	cout << "************************************************\n";
 }
-void Print_ElementStudent(Student* S, int i) {
-	cout << "No: " << S[i].No << endl;
-	cout << "StudentID: " << S[i].StudentID << ". F & L Name: " << S[i].LastName << " " << S[i].FirstName << endl;
-	cout << "Gender: " << S[i].Gender << ". Date of Birth: " << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << endl;
-	cout << "Social ID: " << S[i].SocialID << ". Class: " << S[i].Class << endl;
+void Print_ElementStudent(Student* student, int position) {
+	cout << "No: " << student[position].No << endl;
+	cout << "StudentID: " << student[position].StudentID << ". F & L Name: " << student[position].LastName << " " << student[position].FirstName << endl;
+	cout << "Gender: " << student[position].Gender << ". Date of Birth: " << student[position].DateOfBirth.Day << "/" << student[position].DateOfBirth.Month << "/" << student[position].DateOfBirth.Year << endl;
+	cout << "Social ID: " << student[position].SocialID << ". Class: " << student[position].Class << endl;
 }
 int Count_Teacher() {
 	int count = 0;
 	ifstream infile;
 	infile.open("Teachers.csv");
 	if (!infile.is_open()) {
+		cout << "Cann't open file!\n";
 		return 0;
 	}
-	string line;
-	getline(infile, line);
+	string temp_line;
+	getline(infile, temp_line);
 	while (infile) {
-		getline(infile, line);
+		getline(infile, temp_line);
 		count++;
 	}
 	infile.close();
 	return count;
 }
-void Read_Teacher(Teacher*& T, int& n) {
-	T = new Teacher[Count_Teacher()];
+void Read_Teacher(Teacher*& teacher, int& number_of_teacher) {
+	teacher = new Teacher[Count_Teacher()];
 	ifstream file("Teachers.csv");
 	if (!file.is_open()) {
 		cout << "Cannot open file." << endl;
 		return;
 	}
-	string line;
-	string SNo;
-	string SSocialID;
-	int i = 0;
-	getline(file, line);
+	string temp_line;
+	string temp_No;
+	string temp_SocialID;
+	int temp = 0;
+	getline(file, temp_line);
 	while (file) {
-		getline(file, SNo, ',');
-		getline(file, T[i].TeacherID, ',');
-		getline(file, T[i].LastName, ',');
-		getline(file, T[i].FirstName, ',');
-		getline(file, T[i].Gender, ',');
-		getline(file, SSocialID, ',');
-		getline(file, T[i].Faculty, ',');
-		getline(file, T[i].Pass);
+		getline(file, temp_No, ',');
+		getline(file, teacher[temp].TeacherID, ',');
+		getline(file, teacher[temp].LastName, ',');
+		getline(file, teacher[temp].FirstName, ',');
+		getline(file, teacher[temp].Gender, ',');
+		getline(file, temp_SocialID, ',');
+		getline(file, teacher[temp].Faculty, ',');
+		getline(file, teacher[temp].Pass);
 
-		T[i].No = StringToInteger(SNo);
-		T[i].SocialID = StringToInteger(SSocialID);
-		i++;
+		teacher[temp].No = StringToInteger(temp_No);
+		teacher[temp].SocialID = StringToInteger(temp_SocialID);
+		temp++;
 	}
-	n = i - 1;
+	number_of_teacher = temp - 1;
 	file.close();
 }
-void Print_ListTeacher(Teacher* T, int m) {
-	cout << setw(4) << left << "No: " 
-		<< setw(15) << left << "Teacher ID: "
-		<< setw(30) << left << " F & L Name: " 
-		<< setw(8) << left << "Gender " 
-		<< setw(15) << left << " SocialID: " 
-		<< setw(40) << left << " Fal: " << endl;
-	for (int i = 0; i < m; i++) {
-		Print_One_Teacher(T[i]);
+void Print_ListTeacher(Teacher* teacher, int number_of_teacher) {
+	cout << setw(4)  << left << "No: " 
+		 << setw(15) << left << "Teacher ID: "
+		 << setw(30) << left << "F & L Name: " 
+		 << setw(8)  << left << "Gender " 
+		 << setw(15) << left << "SocialID: " 
+		 << setw(40) << left << "Fal: " << endl;
+	for (int i = 0; i < number_of_teacher; i++) {
+		Print_One_Teacher(teacher[i]);
 	}
 }
-void Print_One_Teacher(Teacher T) {
-	cout << setw(4) << left << T.No
-		<< setw(15) << left << T.TeacherID
-		<< setw(20) << left << T.LastName << " "<<setw(10)<<left << T.FirstName
-		<< setw(8)  << left << T.Gender
-		<< setw(15) << left << T.SocialID
-		<< setw(40) << left << T.Faculty << endl;
+void Print_One_Teacher(Teacher teacher) {
+	cout << setw(4)  << left << "No: "
+		 << setw(15) << left << "Teacher ID: "
+		 << setw(30) << left << "F & L Name: "
+		 << setw(8)  << left << "Gender "
+		 << setw(15) << left << "SocialID: "
+		 << setw(40) << left << "Fal: " << endl;
+	cout << setw(4)  << left << teacher.No
+		 << setw(15) << left << teacher.TeacherID
+		 << setw(20) << left << teacher.LastName << " "
+		 << setw(10) << left << teacher.FirstName
+		 << setw(8)  << left << teacher.Gender
+		 << setw(15) << left << teacher.SocialID
+		 << setw(40) << left << teacher.Faculty << endl;
 }
 void Personal_Infor_Teacher(Teacher T) {
 	cout << "\t\t*********************\n";
 	cout << "\t\t  YOUR INFORMATION\n";
-	cout <<"\t\t" << setw(12) << left << "No: " << T.No << endl;
+	cout <<"\t\t" << setw(12) << left << "No: "         << T.No        << endl;
 	cout <<"\t\t" << setw(12) << left << "Teacher ID: " << T.TeacherID << endl
-		 <<"\t\t" << setw(12) << left << "F & L Name: " << T.LastName << " " << T.FirstName << endl;
-	cout <<"\t\t" << setw(12) << left << "Gender: " << T.Gender << endl
-		 <<"\t\t" << setw(12) << left << "Social ID: " << T.SocialID << endl
-		 <<"\t\t" << setw(12) << left << "Fal: " << T.Faculty << endl;
+		 <<"\t\t" << setw(12) << left << "F & L Name: " << T.LastName  << " " << T.FirstName << endl;
+	cout <<"\t\t" << setw(12) << left << "Gender: "     << T.Gender    << endl
+		 <<"\t\t" << setw(12) << left << "Social ID: "  << T.SocialID  << endl
+		 <<"\t\t" << setw(12) << left << "Fal: "        << T.Faculty   << endl;
 	cout << "\t\t*********************\n";
 }
-
 void Print_ElementTeacher(Teacher* T, int i) {
 	cout << "No: " << T[i].No << endl;
 	cout << "Teacher: " << T[i].TeacherID << ". F & L Name: " << T[i].LastName << " " << T[i].FirstName << endl;
@@ -283,12 +289,12 @@ void Update_Infor_Of_Teacher(Teacher*& T, int m, string ID) {
 	cin >> Temp.SocialID;
 	for (int i = 0; i < m; i++) {
 		if (T[i].TeacherID == ID) {
-			T[i].TeacherID= Temp.TeacherID;
+			T[i].TeacherID = Temp.TeacherID;
 			T[i].FirstName = Temp.FirstName;
-			T[i].LastName = Temp.LastName;
-			T[i].Gender = Temp.Gender;
-			T[i].Faculty = Temp.Faculty;
-			T[i].SocialID = Temp.SocialID;
+			T[i].LastName  = Temp.LastName;
+			T[i].Gender    = Temp.Gender;
+			T[i].Faculty   = Temp.Faculty;
+			T[i].SocialID  = Temp.SocialID;
 		}
 	}
 }
@@ -970,28 +976,28 @@ void Add_Student_To_Courses(Student_Courses*& SC, int& p, Courses* C, int t, Stu
 		if (SC[i].StudentID == ID)
 		{
 			Student_Courses SCtemp;
-			SCtemp.No = SC[i].No + 1;
-			SCtemp.StudentID = SC[i].StudentID;
-			SCtemp.FirstName = SC[i].FirstName;
-			SCtemp.LastName = SC[i].LastName;
-			SCtemp.Gender = SC[i].Gender;
-			SCtemp.Class = SC[i].Class;
-			SCtemp.CourseID = C[position].ID;
-			SCtemp.Classname = C[position].Class_Name;
-			SCtemp.Credits = C[position].Credits;
+			SCtemp.No          = SC[i].No + 1;
+			SCtemp.StudentID   = SC[i].StudentID;
+			SCtemp.FirstName   = SC[i].FirstName;
+			SCtemp.LastName    = SC[i].LastName;
+			SCtemp.Gender      = SC[i].Gender;
+			SCtemp.Class       = SC[i].Class;
+			SCtemp.CourseID    = C[position].ID;
+			SCtemp.Classname   = C[position].Class_Name;
+			SCtemp.Credits     = C[position].Credits;
 			SCtemp.TeacherName = C[position].Teacher_Name;
-			SCtemp.Day1 = C[position].Day_First;
-			SCtemp.Session1 = C[position].Session_First;
-			SCtemp.Day2 = C[position].Day_Second;
-			SCtemp.Session2 = C[position].Session_Second;
-			SCtemp.DayBegin = C[position].DayBegin;
-			SCtemp.MonthBegin = C[position].MonthBegin;
-			SCtemp.DayEnd = C[position].DayEnd;
-			SCtemp.MonthEnd = C[position].MonthEnd;
-			SCtemp.OtherMark = 0;
+			SCtemp.Day1        = C[position].Day_First;
+			SCtemp.Session1    = C[position].Session_First;
+			SCtemp.Day2        = C[position].Day_Second;
+			SCtemp.Session2    = C[position].Session_Second;
+			SCtemp.DayBegin    = C[position].DayBegin;
+			SCtemp.MonthBegin  = C[position].MonthBegin;
+			SCtemp.DayEnd      = C[position].DayEnd;
+			SCtemp.MonthEnd    = C[position].MonthEnd;
+			SCtemp.OtherMark   = 0;
 			SCtemp.MidtermMark = 0;
-			SCtemp.FinalMark = 0;
-			SCtemp.TotalMark = 0;
+			SCtemp.FinalMark   = 0;
+			SCtemp.TotalMark   = 0;
 			Add_Element_To_Arr(SC, p, i, SCtemp);
 			break;
 		}
@@ -1080,16 +1086,27 @@ void Print_Student_Of_Courses(Student_Courses* SC, int p) {
 		cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].FirstName << " " << SC[i].LastName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin<< "/" << SC[i].MonthBegin<< " - " << SC[i].DayEnd<< "/" << SC[i].MonthEnd << endl;
 	}
 }
-// in hoc sinh trong khoa hoc
 void Print_One_Student_Of_Courses(Student_Courses* SC, int i) {
-	cout << setw(12)<<left << SC[i].StudentID <<setw(20)<<left << SC[i].LastName << setw(15)<<left << SC[i].FirstName << setw(10)<<left<< SC[i].Class << setw(15)<<left << SC[i].CourseID <<setw(30)<<left << SC[i].Classname << setw(2)<<left << SC[i].DayBegin << "/"<<setw(12)<<left << SC[i].MonthBegin << setw(2)<<left<< SC[i].DayEnd << "/"<<setw(13)<<left << SC[i].MonthEnd << endl;
+	cout << setw(12) << left << "Student ID"
+		 << setw(20) << left << "Last Name"
+		 << setw(15) << left << "First Name"
+		 << setw(10) << left << "Class"
+		 << setw(15) << left << "Course ID"
+		 << setw(30) << left << "Class Name"
+		 << setw(15) << left << "Date Begin"
+		 << setw(5)  << left << "Date End" << endl;
+	cout << setw(12) << left << SC[i].StudentID 
+		 << setw(20) << left << SC[i].LastName 
+		 << setw(15) << left << SC[i].FirstName 
+		 << setw(10) << left << SC[i].Class 
+		 << setw(15) << left << SC[i].CourseID 
+		 << setw(30) << left << SC[i].Classname 
+		 << setw(2)  << left << SC[i].DayBegin  << "/"<<setw (12) << left << SC[i].MonthBegin 
+		 << setw(2)  << left << SC[i].DayEnd    << "/"<<setw (13) << left << SC[i].MonthEnd   << endl;
 }
 void print_title_student_of_course() {
 	cout << setw(12) << left << "Student ID" << setw(20) << left << "Last Name" << setw(15) << left << "First Name" << setw(10) << left << "Class" << setw(15) << left << "Course ID" << setw(30) << left << "Course" << setw(15) << left << "Day Begin" << setw(15) << left << "Day End" << endl;
 }
-//void Print_One_Student_Of_Courses(Student_Courses* SC, int i) {
-//	cout << "Student ID: " << SC[i].StudentID << " | Name: " << SC[i].LastName << " " << SC[i].FirstName << " | Class: " << SC[i].Class << " | Course ID: " << SC[i].CourseID << " | Course: " << SC[i].Classname << " | Semester: " << SC[i].DayBegin << "/" << SC[i].MonthBegin << " - " << SC[i].DayEnd << "/" << SC[i].MonthEnd << endl;
-//}
 bool Check_Export(Student_Courses* SC, int p, string temp)
 {
 	for (int i = 0; i < p; i++)
@@ -1118,7 +1135,7 @@ void Export_Student(Student_Courses* SC, int p) {
 void Enter_Scoreboard_Of_Course(Student_Courses*& SC, int p, int pos, Courses* C, Teacher* T) {
 	for (int i = 0; i < p; i++) {
 		if (C[pos].ID == SC[i].CourseID) {
-			Print_ElementTeacher(T, pos);
+			Print_One_Teacher(T[pos]);
 			cout << "\t\tEnter Score for student:" << endl;
 			Print_Student_Of_Courses(SC, i);
 			cout << "Final mark: ";
