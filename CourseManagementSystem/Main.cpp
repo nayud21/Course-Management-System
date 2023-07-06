@@ -135,14 +135,14 @@ int main() {
 
                 case 11: {
                     system("cls");
-                    cout<<"\tSCOREBOARD OF CLASS.";
+                    cout<<"\tSCOREBOARD OF CLASS\n";
                     Score_Board_Class(list_student_course, number_of_student_course);
                     system("pause");
                 } break;
                 case 12:
                 {
                     system("cls");
-                    cout<<"\tTHE SCOREBOARD OF COURSE.";
+                    cout<<"\tTHE SCOREBOARD OF COURSE\n";
                     Score_Board_Course(list_student_course, number_of_student_course);
                     system("pause");
                 } break;
@@ -215,7 +215,7 @@ int main() {
                             if (Check_Date_Student_Courses(list_student_course, i, day, month))
                                 if (list_student_course[i].StudentID == user)
                                 {
-                                    Print_Student_Of_Courses(list_student_course, i);
+                                    Print_Schedule(list_student_course, i);
                                     count++;
                                 }
                         }
@@ -225,7 +225,7 @@ int main() {
                     case 5:
                     {
                         system("cls");
-                        cout<<"\tSCOREBOARD"<<endl;
+                        cout<<"\tSCOREBOARD";
                         int count = 0, day = 0, month = 0;
                         cout << "\n\n\tEnter Current time to view your Courses" << endl;
                         do {
@@ -244,7 +244,7 @@ int main() {
                     }break;
                     case 6: {
                         system("cls");
-                        cout<<"\tLIST STUDENT IN A COURSE";
+                        cout<<"\tLIST STUDENT IN A COURSE\n";
                         string ID;
                         int count = 0, day = 0, month = 0;
                         cout << "\tEnter Current time to view your Courses" << endl;
@@ -270,11 +270,7 @@ int main() {
                     {
                         system("cls");
                         cout<<"LIST CLASSES";
-                        View_Classes(list_class, temp_to_view_class, list_student, number_of_student);
-                        for (int i = 0; i < temp_to_view_class; i++)
-                        {
-                            cout << "\n\t Class: " << list_class[i].NameClass << " | " <<list_class[i].Num << " Students " << endl;
-                        }
+                        View_Classes(list_class, temp_to_view_class, list_student, number_of_student);           
                         system("pause");
                     } break;
                     case 8:
@@ -290,7 +286,7 @@ int main() {
                         for (int i = 0; i < number_of_student_course; i++)
                         {
                             if (list_student_course[i].Class == ID) {
-                                Print_One_Student_Of_Courses(list_student_course, i);
+                                Print_A_Student_Of_Courses(list_student_course, i);
                             }
                         }
 
@@ -313,7 +309,6 @@ int main() {
                 system("color C");
                 cout << "\t\t\t\t\t\tWARNING";
                 cout << "\n\t\t\t\t\tID or Password is wrong!";
-               // Sleep(3000);
                 cin.ignore();
                 system("cls");
                 system("color 7");

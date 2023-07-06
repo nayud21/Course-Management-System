@@ -24,7 +24,6 @@ struct Student {
 	int SocialID;
 	string Class;
 	string Pass;
-
 };
 struct Teacher {
 	int No;
@@ -170,3 +169,10 @@ void Personal_Infor_Teacher(Teacher T);
 void Personal_Infor_Student(Student S);
 
 void print_title_student_of_course();
+
+
+void get_infor_student(Student& student, string newclass);
+int Count_Element(string s);
+
+void Print_A_Student_Of_Courses(Student_Courses* SC, int i);
+void Print_Schedule(Student_Courses* SC, int p);
