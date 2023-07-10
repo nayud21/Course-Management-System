@@ -1,10 +1,5 @@
 No,Student ID,First Name,Last Name,Gender,Class,Course ID,Course Name,Credits,Teacher Name,day1,session1,day2,session2,day start,month start,day end,month end,Other mark,Midterm mark,Final mark,Total mark
 1,22120001,An,Bui Duy,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15,9,22,12,9,9,1,5
-2,22120001,An,Bui Duy,Nam,22CTT2,SH003,Sinh Dai Cuong 1,3,Tai,WED,S3,FRI,S3,17,1,27,5,0,0,0,0
-2,22120001,An,Bui Duy,Nam,22CTT2,VLH003,Vat Ly Dai Cuong 1,3,Hoang,WED,S4,THU,S3,17,1,27,5,0,0,0,0
-2,22120001,An,Bui Duy,Nam,22CTT2,DC002,The Duc 1,2,Thang,SAT,S1,FRI,S2,1,9,27,5,0,0,0,0
-2,22120001,An,Bui Duy,Nam,22CTT2,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,1,3,27,5,0,0,0,0
-2,22120001,An,Bui Duy,Nam,22CTT2,CNTT004,Ky Thuat Lap Trinh,4,Dung,THU,S3,WED,S2,1,3,27,5,0,0,0,0
 2,22120002,An,Do Quang,Nam,22CTT2,TTH005,Dai So Tuyen Tinh,3,Tuan,MON,S3,WED,S2,1,3,27,5,5,5,10,7.5
 3,22120003,An,Le Nguyen Thien,Nu,22CTT2,CNTT003,Nhap Mon Lap Trinh,4,Quang,WED,S1,THU,S2,1,9,22,12,0,7,7,5.25
 4,22120004,An,Le Thinh,Nam,22CTT2,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15,9,22,12,8,6,7,7
@@ -55,7 +50,7 @@ No,Student ID,First Name,Last Name,Gender,Class,Course ID,Course Name,Credits,Te
 49,22120059,Dat,Tran Minh Dat,Nam,22CTT6,TTH004,Giai Tich,4,Huy,TUE,S1,THU,S1,1,3,27,5,10,9,1,5.25
 50,22120061,Dat,Vu Tuan Dat,Nam,22CTT6,DC001,Ky Nang Lam Viec Nhom,2,Tho,MON,S3,WED,S2,13,6,24,8,6,10,10,9
 51,22120062,Dien,Nguyen Dang,Nam,22CTT6,MTH005,Khoa Hoc Moi Truong,4,Toan,THU,S3,SAT,S4,17,1,27,5,4,4,5,4.5
-52,22120063,Dong,Ngo Phuong,Nam,22CTT6,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1,9,22,12,8,8,8,8
+52,22120063,Dong,Ngo Phuong,Nam,22CTT6,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1,9,22,12,2,8,8,6.5
 53,22120064,Dong,Nguyen Tan,Nam,22CTT6,DC009,Kinh Te Dai Cuong,2,Cong,FRI,S1,THU,S4,17,1,27,5,9,9,8,8.5
 54,22120065,Dong,Tran Dai,Nam,22CTT6,CNTT005,Ky Thuat Lap Trinh,4,Viet,FRI,S4,TUE,S2,1,3,27,5,5,7,10,8
 55,22120066,Duc,Bui Anh,Nam,22CTT6,DC006,Lich Su Dang,3,Nga,TUE,S3,FRI,S1,1,9,22,12,3,2,10,6.25
@@ -73,5 +68,5 @@ No,Student ID,First Name,Last Name,Gender,Class,Course ID,Course Name,Credits,Te
 67,22120081,Duy,Pham Thanh,Nam,22TNT1,CNTT002,Cong Nghe Thong Tin,3,Vy,TUE,S2,FRI,S1,15,9,22,12,10,4,6,6.5
 68,22120083,Gia,Nguyen Tran,Nam,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1,3,27,5,1,4,8,5.25
 69,22120084,Giang,Pham Hoang,Nam,22TNT1,HH003,Hoa Dai Cuong 1,3,Tuan,MON,S3,TUE,S3,1,9,22,12,2,4,9,6
-70,22120086,Giap,Nguyen Cong Giap,Nam,22TNT1,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1,9,22,12,9,9,9,9
+70,22120086,Giap,Nguyen Cong Giap,Nam,22TNT1,CNTT001,Cong Nghe Thong Tin,3,Tu,MON,S1,SAT,S2,1,9,22,12,2,4,7,5
 71,22120088,Ha,Van Ho Phuong,Nu,22TNT1,VLH002,Vat Ly Dai Cuong 1,3,Cuong,TUE,S2,FRI,S3,1,3,27,5,3,3,10,6.5

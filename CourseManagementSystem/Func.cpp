@@ -136,13 +136,6 @@ void Print_ListStudent(Student* S, int number_of_student) {
 	}
 }
 void Print_One_Student(Student S) {
-	/*cout << setw(4)  << left << "No "
-		 << setw(15) << left << "Student ID "
-		 << setw(31) << left << "F & L Name "
-		 << setw(8)  << left << "Gender"
-		 << setw(15) << left << "Date of Birth "
-		 << setw(15) << left << "Social ID "
-		 << setw(6)  << left << "Class" << endl;*/
 	cout << setw(4)  << left << S.No
 		 << setw(15) << left << S.StudentID
 		 << setw(20) << left << S.LastName << " " << setw(10) << left << S.FirstName
@@ -406,9 +399,11 @@ void Write_File_After_Update_of_Teacher(Teacher* T, int m) {
 		cout << "can not open file!" << endl;
 		return;
 	}
-	fileout << "No" << "," << "Teacher ID" << "," << "First Name" << "," << "Last Name" << "," << "Gender" << "," << "Social ID" << "," << "Faculty" << "," << "Password" << endl;
+	fileout << "No" << "," << "Teacher ID" << "," << "First Name" << "," << "Last Name"
+		<< "," << "Gender" << "," << "Social ID" << "," << "Faculty" << "," << "Password" << endl;
 	for (int i = 0; i < m; i++) {
-		fileout << T[i].No << "," << T[i].TeacherID << "," << T[i].FirstName << "," << T[i].LastName << "," << T[i].Gender << "," << T[i].SocialID << "," << T[i].Faculty << "," << T[i].Pass << endl;
+		fileout << T[i].No << "," << T[i].TeacherID << "," << T[i].FirstName << "," 
+			<< T[i].LastName << "," << T[i].Gender << "," << T[i].SocialID << "," << T[i].Faculty << "," << T[i].Pass << endl;
 	}
 	fileout.close();
 }
@@ -419,9 +414,12 @@ void Write_File_After_Update_Student(Student* S, int n) {
 		cout << "Can not open file" << endl;
 		return;
 	}
-	out << "No" << "," << "Student ID" << "," << "First Name" << "," << "Last Name" << "," << "Gender" << "," << "Date of birth" << "," << "Social ID" << "," << "Class" << "," << "Password" << endl;
+	out << "No" << "," << "Student ID" << "," << "First Name" << "," << "Last Name" << "," 
+		<< "Gender" << "," << "Date of birth" << "," << "Social ID" << "," << "Class" << "," << "Password" << endl;
 	for (int i = 0; i < n; i++) {
-		out << S[i].No << "," << S[i].StudentID << "," << S[i].FirstName << "," << S[i].LastName << "," << S[i].Gender << "," << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" << S[i].DateOfBirth.Year << "," << S[i].SocialID << "," << S[i].Class << "," << S[i].Pass << endl;
+		out << S[i].No << "," << S[i].StudentID << "," << S[i].FirstName << "," << S[i].LastName << "," 
+			<< S[i].Gender << "," << S[i].DateOfBirth.Day << "/" << S[i].DateOfBirth.Month << "/" 
+			<< S[i].DateOfBirth.Year << "," << S[i].SocialID << "," << S[i].Class << "," << S[i].Pass << endl;
 	}
 	out.close();
 }
